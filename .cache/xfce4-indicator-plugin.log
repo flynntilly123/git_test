@@ -1,0 +1,37 @@
+DEBUG      libindicator-plugin       Looking at Module: libapplication.so
+DEBUG      libindicator-plugin       Loading Module: libapplication.so
+DEBUG      libindicator-plugin       Load indicator: libapplication.so
+DEBUG      libindicator-plugin       Looking at Module: libprintersmenu.so
+DEBUG      libindicator-plugin       Loading Module: libprintersmenu.so
+DEBUG      libindicator-plugin       Load indicator: libprintersmenu.so
+DEBUG      libindicator-plugin       Excluding blacklisted module: libappmenu.so
+DEBUG      libindicator-plugin       Looking at Service: com.canonical.indicator.datetime
+DEBUG      libindicator-plugin       Loading Service: com.canonical.indicator.datetime
+DEBUG      libindicator-plugin       Load indicator: com.canonical.indicator.datetime
+DEBUG      libindicator-plugin       Looking at Service: com.canonical.indicator.power
+DEBUG      libindicator-plugin       Loading Service: com.canonical.indicator.power
+DEBUG      libindicator-plugin       Load indicator: com.canonical.indicator.power
+DEBUG      libindicator-plugin       Looking at Service: com.canonical.indicator.messages
+DEBUG      libindicator-plugin       Loading Service: com.canonical.indicator.messages
+DEBUG      libindicator-plugin       Load indicator: com.canonical.indicator.messages
+DEBUG      libindicator-plugin       Looking at Service: com.canonical.indicator.session
+DEBUG      libindicator-plugin       Loading Service: com.canonical.indicator.session
+DEBUG      libindicator-plugin       Load indicator: com.canonical.indicator.session
+DEBUG      libindicator-plugin       Looking at Service: com.canonical.indicator.bluetooth
+DEBUG      libindicator-plugin       Loading Service: com.canonical.indicator.bluetooth
+DEBUG      libindicator-plugin       Load indicator: com.canonical.indicator.bluetooth
+DEBUG      libindicator-plugin       Looking at Service: com.canonical.indicator.sound
+DEBUG      libindicator-plugin       Loading Service: com.canonical.indicator.sound
+DEBUG      libindicator-plugin       Load indicator: com.canonical.indicator.sound
+DEBUG      libindicator-plugin       Looking at Service: com.canonical.indicator.keyboard
+DEBUG      libindicator-plugin       Loading Service: com.canonical.indicator.keyboard
+DEBUG      libindicator-plugin       Load indicator: com.canonical.indicator.keyboard
+DEBUG      Indicator-Application     Connected to Application Indicator Service.
+DEBUG      Indicator-Application     Request current apps
+DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.sound
+DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.session
+DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.datetime
+DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.keyboard
+DEBUG      libindicator-plugin       Entry added for io=libprintersmenu.so
+DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.power
+DEBUG      libindicator-plugin       Entry removed for io=libprintersmenu.so

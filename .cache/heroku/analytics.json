@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "commands": [
+    {
+      "command": "create",
+      "completion": 0,
+      "version": "7.19.4",
+      "plugin": "@heroku-cli/plugin-apps-v5",
+      "plugin_version": "7.19.4",
+      "os": "linux",
+      "shell": "bash",
+      "valid": true,
+      "language": "node"
+    },
+    {
+      "command": "keys:add",
+      "completion": 0,
+      "version": "7.19.4",
+      "plugin": "@heroku-cli/plugin-apps-v5",
+      "plugin_version": "7.19.4",
+      "os": "linux",
+      "shell": "bash",
+      "valid": true,
+      "language": "node"
+    },
+    {
+      "command": "create",
+      "completion": 0,
+      "version": "7.19.4",
+      "plugin": "@heroku-cli/plugin-apps-v5",
+      "plugin_version": "7.19.4",
+      "os": "linux",
+      "shell": "bash",
+      "valid": true,
+      "language": "node"
+    },
+    {
+      "command": "open",
+      "completion": 0,
+      "version": "7.19.4",
+      "plugin": "@heroku-cli/plugin-apps-v5",
+      "plugin_version": "7.19.4",
+      "os": "linux",
+      "shell": "bash",
+      "valid": true,
+      "language": "node"
+    }
+  ]
+}

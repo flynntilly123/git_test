@@ -1,0 +1,11 @@
+[CLIENT] 0x3c00007
+  [CLIENT_LEADER] 0x3c00001
+  [RES_NAME] update-manager
+  [RES_CLASS] Update-manager
+  [WM_NAME] Software Updater
+  [WM_COMMAND] (1) "update-manager"
+  [GEOMETRY] (137,240,528,192)
+  [GEOMETRY-MAXIMIZED] (137,240,528,192)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x8080

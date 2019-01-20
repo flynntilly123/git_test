@@ -1,0 +1,203 @@
+2019-01-08 23:43:57 +1000
+
+/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/cpan
+-i
+XML::SAX
+
+Loading internal logger. Log::Log4perl recommended for better logging
+Reading '/home/flynn/.cpan/Metadata'
+  Database was generated on Wed, 09 Jan 2019 10:54:25 GMT
+Running install for module 'XML::SAX'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GR/GRANTM/XML-SAX-1.00.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GR/GRANTM/CHECKSUMS
+Checksum for /home/flynn/.cpan/sources/authors/id/G/GR/GRANTM/XML-SAX-1.00.tar.gz ok
+'YAML' not installed, will not store persistent state
+Configuring G/GR/GRANTM/XML-SAX-1.00.tar.gz with Makefile.PL
+Warning: prerequisite XML::NamespaceSupport 0.03 not found.
+Warning: prerequisite XML::SAX::Base 1.05 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for XML::SAX
+Writing MYMETA.yml and MYMETA.json
+  GRANTM/XML-SAX-1.00.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for G/GR/GRANTM/XML-SAX-1.00.tar.gz
+---- Unsatisfied dependencies detected during ----
+----        GRANTM/XML-SAX-1.00.tar.gz        ----
+    XML::NamespaceSupport [requires]
+    XML::SAX::Base [requires]
+Running install for module 'XML::NamespaceSupport'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/P/PE/PERIGRIN/XML-NamespaceSupport-1.12.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/P/PE/PERIGRIN/CHECKSUMS
+Checksum for /home/flynn/.cpan/sources/authors/id/P/PE/PERIGRIN/XML-NamespaceSupport-1.12.tar.gz ok
+Configuring P/PE/PERIGRIN/XML-NamespaceSupport-1.12.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for XML::NamespaceSupport
+Writing MYMETA.yml and MYMETA.json
+  PERIGRIN/XML-NamespaceSupport-1.12.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for P/PE/PERIGRIN/XML-NamespaceSupport-1.12.tar.gz
+cp lib/XML/NamespaceSupport.pm blib/lib/XML/NamespaceSupport.pm
+Manifying 1 pod document
+  PERIGRIN/XML-NamespaceSupport-1.12.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00base.t .. ok
+All tests successful.
+Files=1, Tests=49,  0 wallclock secs ( 0.01 usr  0.01 sys +  0.04 cusr  0.00 csys =  0.06 CPU)
+Result: PASS
+  PERIGRIN/XML-NamespaceSupport-1.12.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 1 pod document
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/NamespaceSupport.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/XML::NamespaceSupport.3
+  PERIGRIN/XML-NamespaceSupport-1.12.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+Running install for module 'XML::SAX::Base'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz
+Checksum for /home/flynn/.cpan/sources/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz ok
+Configuring G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for XML::SAX::Base
+Writing MYMETA.yml and MYMETA.json
+  GRANTM/XML-SAX-Base-1.09.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz
+cp lib/XML/SAX/Base.pm blib/lib/XML/SAX/Base.pm
+cp lib/XML/SAX/Exception.pm blib/lib/XML/SAX/Exception.pm
+cp BuildSAXBase.pl blib/lib/XML/SAX/BuildSAXBase.pl
+Manifying 3 pod documents
+  GRANTM/XML-SAX-Base-1.09.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00basic.t ............. ok
+t/01exception.t ......... ok
+t/01simpledriver.t ...... ok
+t/02simplefilter.t ...... ok
+t/03chdriver.t .......... ok
+t/04chfilter.t .......... ok
+t/05dtdhdriver.t ........ ok
+t/06lexhdriver.t ........ ok
+t/07declhdriver.t ....... ok
+t/08errorhdriver.t ...... ok
+t/09resoldriver.t ....... ok
+t/10dochdriver.t ........ ok
+t/11sax1multiclass.t .... ok
+t/12sax2multiclass.t .... ok
+t/13handlerswitch.t ..... ok
+t/14downstreamswitch.t .. ok
+t/15parentswitch.t ...... ok
+t/16gethandlers.t ....... ok
+t/release-pod-syntax.t .. skipped: these tests are for release candidate testing
+All tests successful.
+Files=19, Tests=137,  1 wallclock secs ( 0.04 usr  0.02 sys +  0.35 cusr  0.05 csys =  0.46 CPU)
+Result: PASS
+  GRANTM/XML-SAX-Base-1.09.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 3 pod documents
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/BuildSAXBase.pl
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/Exception.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/Base.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/XML::SAX::Exception.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/XML::SAX::Base.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/XML::SAX::BuildSAXBase.3
+  GRANTM/XML-SAX-Base-1.09.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+  GRANTM/XML-SAX-1.00.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/XML-SAX-1.00-0
+  GRANTM/XML-SAX-1.00.tar.gz
+  Has already been prepared
+Running make for G/GR/GRANTM/XML-SAX-1.00.tar.gz
+cp SAX/PurePerl/Productions.pm blib/lib/XML/SAX/PurePerl/Productions.pm
+cp SAX/PurePerl/UnicodeExt.pm blib/lib/XML/SAX/PurePerl/UnicodeExt.pm
+cp SAX/DocumentLocator.pm blib/lib/XML/SAX/DocumentLocator.pm
+cp SAX/PurePerl/NoUnicodeExt.pm blib/lib/XML/SAX/PurePerl/NoUnicodeExt.pm
+cp SAX/PurePerl/DebugHandler.pm blib/lib/XML/SAX/PurePerl/DebugHandler.pm
+cp SAX/PurePerl/Exception.pm blib/lib/XML/SAX/PurePerl/Exception.pm
+cp SAX.pm blib/lib/XML/SAX.pm
+cp SAX/PurePerl/EncodingDetect.pm blib/lib/XML/SAX/PurePerl/EncodingDetect.pm
+cp SAX/PurePerl/DTDDecls.pm blib/lib/XML/SAX/PurePerl/DTDDecls.pm
+cp SAX/PurePerl.pm blib/lib/XML/SAX/PurePerl.pm
+cp SAX/ParserFactory.pm blib/lib/XML/SAX/ParserFactory.pm
+cp SAX/PurePerl/XMLDecl.pm blib/lib/XML/SAX/PurePerl/XMLDecl.pm
+cp SAX/PurePerl/Reader/Stream.pm blib/lib/XML/SAX/PurePerl/Reader/Stream.pm
+cp SAX/Intro.pod blib/lib/XML/SAX/Intro.pod
+cp SAX/PurePerl/Reader/NoUnicodeExt.pm blib/lib/XML/SAX/PurePerl/Reader/NoUnicodeExt.pm
+cp SAX/PurePerl/Reader.pm blib/lib/XML/SAX/PurePerl/Reader.pm
+cp SAX/PurePerl/DocType.pm blib/lib/XML/SAX/PurePerl/DocType.pm
+cp SAX/PurePerl/Reader/UnicodeExt.pm blib/lib/XML/SAX/PurePerl/Reader/UnicodeExt.pm
+cp SAX/PurePerl/Reader/String.pm blib/lib/XML/SAX/PurePerl/Reader/String.pm
+cp SAX/PurePerl/Reader/URI.pm blib/lib/XML/SAX/PurePerl/Reader/URI.pm
+Manifying 6 pod documents
+  GRANTM/XML-SAX-1.00.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00basic.t ...... ok
+t/01known.t ...... ok
+t/10xmldecl1.t ... ok
+t/11xmldecl2.t ... ok
+t/12miscstart.t .. ok
+t/13int_ent.t .... ok
+t/14encoding.t ... ok
+t/15element.t .... ok
+parsed 80085 bytes in 1 seconds
+t/16large.t ...... ok
+t/20factory.t .... ok
+t/21saxini.t ..... ok
+t/40cdata.t ...... ok
+t/42entities.t ... ok
+t/99cleanup.t .... ok
+All tests successful.
+Files=14, Tests=106,  1 wallclock secs ( 0.04 usr  0.01 sys +  0.88 cusr  0.06 csys =  0.99 CPU)
+Result: PASS
+  GRANTM/XML-SAX-1.00.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 6 pod documents
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/ParserFactory.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/DocumentLocator.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/Intro.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/Reader.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/XMLDecl.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/EncodingDetect.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/DTDDecls.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/Exception.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/DocType.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/Productions.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/UnicodeExt.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/NoUnicodeExt.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/DebugHandler.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/Reader/String.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/Reader/URI.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/Reader/UnicodeExt.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/Reader/NoUnicodeExt.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/XML/SAX/PurePerl/Reader/Stream.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/XML::SAX::PurePerl::Reader.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/XML::SAX.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/XML::SAX::Intro.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/XML::SAX::PurePerl.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/XML::SAX::ParserFactory.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/XML::SAX::DocumentLocator.3
+could not find ParserDetails.ini in /home/flynn/.cpan/build/XML-SAX-1.00-0/blib/lib/XML/SAX
+  GRANTM/XML-SAX-1.00.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK

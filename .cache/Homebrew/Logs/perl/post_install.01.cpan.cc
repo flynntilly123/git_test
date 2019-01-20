@@ -1,0 +1,38 @@
+cc called with: -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/home/linuxbrew/.linuxbrew/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -fstack-protector-strong -L/usr/local/lib -lpthread -lnsl -ldl -lm -lcrypt -lutil -lc assertlibXLrMeblE.c -o assertlibfvZTlVlt
+superenv added:    -isystem/home/linuxbrew/.linuxbrew/include -L/home/linuxbrew/.linuxbrew/lib -B/home/linuxbrew/.linuxbrew/opt/glibc/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/lib -Wl,--dynamic-linker=/home/linuxbrew/.linuxbrew/lib/ld.so
+superenv executed: gcc-7 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/home/linuxbrew/.linuxbrew/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -fstack-protector-strong -L/usr/local/lib -lpthread -lnsl -ldl -lm -lcrypt -lutil -lc assertlibXLrMeblE.c -o assertlibfvZTlVlt -isystem/home/linuxbrew/.linuxbrew/include -L/home/linuxbrew/.linuxbrew/lib -B/home/linuxbrew/.linuxbrew/opt/glibc/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/lib -Wl,--dynamic-linker=/home/linuxbrew/.linuxbrew/lib/ld.so
+
+cc called with: -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/home/linuxbrew/.linuxbrew/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -fstack-protector-strong -L/usr/local/lib -lpthread -lnsl -ldl -lm -lcrypt -lutil -lc assertlibpMbVToDS.c -o assertlibyXeAo4B3 -lexpat
+superenv added:    -isystem/home/linuxbrew/.linuxbrew/include -L/home/linuxbrew/.linuxbrew/lib -B/home/linuxbrew/.linuxbrew/opt/glibc/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/lib -Wl,--dynamic-linker=/home/linuxbrew/.linuxbrew/lib/ld.so
+superenv executed: gcc-7 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/home/linuxbrew/.linuxbrew/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -fstack-protector-strong -L/usr/local/lib -lpthread -lnsl -ldl -lm -lcrypt -lutil -lc assertlibpMbVToDS.c -o assertlibyXeAo4B3 -lexpat -isystem/home/linuxbrew/.linuxbrew/include -L/home/linuxbrew/.linuxbrew/lib -B/home/linuxbrew/.linuxbrew/opt/glibc/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/lib -Wl,--dynamic-linker=/home/linuxbrew/.linuxbrew/lib/ld.so
+
+cc called with: -c -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/home/linuxbrew/.linuxbrew/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -DVERSION="3.72" -DXS_VERSION="3.72" -fPIC -I/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/CORE -DMARKED_SECTION Parser.c
+superenv removed:  -I/home/linuxbrew/.linuxbrew/include
+superenv added:    -w -march=native -isystem/home/linuxbrew/.linuxbrew/include
+superenv executed: gcc-7 -pipe -w -O2 -march=native -c -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DVERSION="3.72" -DXS_VERSION="3.72" -fPIC -I/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/CORE -DMARKED_SECTION Parser.c -isystem/home/linuxbrew/.linuxbrew/include
+
+cc called with: -shared -O2 -L/usr/local/lib -fstack-protector-strong Parser.o -o blib/arch/auto/HTML/Parser/Parser.so
+superenv removed:  -L/usr/local/lib
+superenv added:    -pipe -w -march=native -isystem/home/linuxbrew/.linuxbrew/include -L/home/linuxbrew/.linuxbrew/lib -B/home/linuxbrew/.linuxbrew/opt/glibc/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/lib -Wl,--dynamic-linker=/home/linuxbrew/.linuxbrew/lib/ld.so
+superenv executed: gcc-7 -pipe -w -O2 -march=native -shared -fstack-protector-strong Parser.o -o blib/arch/auto/HTML/Parser/Parser.so -isystem/home/linuxbrew/.linuxbrew/include -L/home/linuxbrew/.linuxbrew/lib -B/home/linuxbrew/.linuxbrew/opt/glibc/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/lib -Wl,--dynamic-linker=/home/linuxbrew/.linuxbrew/lib/ld.so
+
+cc called with: -c -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/home/linuxbrew/.linuxbrew/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -DVERSION="0.16" -DXS_VERSION="0.16" -fPIC -I/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/CORE LeakTrace.c
+superenv removed:  -I/home/linuxbrew/.linuxbrew/include
+superenv added:    -w -march=native -isystem/home/linuxbrew/.linuxbrew/include
+superenv executed: gcc-7 -pipe -w -O2 -march=native -c -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DVERSION="0.16" -DXS_VERSION="0.16" -fPIC -I/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/CORE LeakTrace.c -isystem/home/linuxbrew/.linuxbrew/include
+
+cc called with: -shared -O2 -L/usr/local/lib -fstack-protector-strong LeakTrace.o -o blib/arch/auto/Test/LeakTrace/LeakTrace.so
+superenv removed:  -L/usr/local/lib
+superenv added:    -pipe -w -march=native -isystem/home/linuxbrew/.linuxbrew/include -L/home/linuxbrew/.linuxbrew/lib -B/home/linuxbrew/.linuxbrew/opt/glibc/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/lib -Wl,--dynamic-linker=/home/linuxbrew/.linuxbrew/lib/ld.so
+superenv executed: gcc-7 -pipe -w -O2 -march=native -shared -fstack-protector-strong LeakTrace.o -o blib/arch/auto/Test/LeakTrace/LeakTrace.so -isystem/home/linuxbrew/.linuxbrew/include -L/home/linuxbrew/.linuxbrew/lib -B/home/linuxbrew/.linuxbrew/opt/glibc/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/lib -Wl,--dynamic-linker=/home/linuxbrew/.linuxbrew/lib/ld.so
+
+cc called with: -c -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/home/linuxbrew/.linuxbrew/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -DVERSION="2.44" -DXS_VERSION="2.44" -fPIC -I/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/CORE Expat.c
+superenv removed:  -I/home/linuxbrew/.linuxbrew/include
+superenv added:    -w -march=native -isystem/home/linuxbrew/.linuxbrew/include
+superenv executed: gcc-7 -pipe -w -O2 -march=native -c -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DVERSION="2.44" -DXS_VERSION="2.44" -fPIC -I/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/CORE Expat.c -isystem/home/linuxbrew/.linuxbrew/include
+
+cc called with: -shared -O2 -L/usr/local/lib -fstack-protector-strong Expat.o -o ../blib/arch/auto/XML/Parser/Expat/Expat.so -lexpat
+superenv removed:  -L/usr/local/lib
+superenv added:    -pipe -w -march=native -isystem/home/linuxbrew/.linuxbrew/include -L/home/linuxbrew/.linuxbrew/lib -B/home/linuxbrew/.linuxbrew/opt/glibc/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/lib -Wl,--dynamic-linker=/home/linuxbrew/.linuxbrew/lib/ld.so
+superenv executed: gcc-7 -pipe -w -O2 -march=native -shared -fstack-protector-strong Expat.o -o ../blib/arch/auto/XML/Parser/Expat/Expat.so -lexpat -isystem/home/linuxbrew/.linuxbrew/include -L/home/linuxbrew/.linuxbrew/lib -B/home/linuxbrew/.linuxbrew/opt/glibc/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib -Wl,-rpath=/home/linuxbrew/.linuxbrew/lib -Wl,--dynamic-linker=/home/linuxbrew/.linuxbrew/lib/ld.so
+

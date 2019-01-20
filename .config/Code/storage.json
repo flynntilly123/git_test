@@ -1,0 +1,31 @@
+{
+    "telemetry.machineId": "45e2316c8a1016a11c9c967b34f7c04addd1d56a3a30be7741ab1aee01afcf8b",
+    "openedPathsList": {
+        "workspaces2": [
+            "file:///home/flynn/my_first_rails_app"
+        ],
+        "files2": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "/home/flynn/my_first_rails_app",
+                "external": "file:///home/flynn/my_first_rails_app",
+                "path": "/home/flynn/my_first_rails_app",
+                "scheme": "file"
+            },
+            "backupPath": "/home/flynn/.config/Code/Backups/ba486bc4e771d9ff24ac8e9129d8328b",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 25,
+                "width": 672,
+                "height": 606
+            }
+        }
+    }
+}

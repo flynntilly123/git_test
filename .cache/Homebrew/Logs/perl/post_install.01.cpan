@@ -1,0 +1,2546 @@
+2019-01-08 23:42:39 +1000
+
+/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/cpan
+-i
+XML::Parser
+
+Loading internal logger. Log::Log4perl recommended for better logging
+
+CPAN.pm requires configuration, but most of it can be done automatically.
+If you answer 'no' below, you will enter an interactive dialog for each
+configuration option instead.
+
+Would you like to configure as much as possible automatically? [yes] yes
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/01mailrc.txt.gz
+Reading '/home/flynn/.cpan/sources/authors/01mailrc.txt.gz'
+............................................................................DONE
+Fetching with HTTP::Tiny:
+http://www.cpan.org/modules/02packages.details.txt.gz
+Reading '/home/flynn/.cpan/sources/modules/02packages.details.txt.gz'
+  Database was generated on Wed, 09 Jan 2019 10:54:25 GMT
+  HTTP::Date not available
+.............
+  New CPAN.pm version (v2.22) available.
+  [Currently running version is v2.20]
+  You might want to try
+    install CPAN
+    reload cpan
+  to both upgrade CPAN.pm and run the new version without leaving
+  the current session.
+
+
+...............................................................DONE
+Fetching with HTTP::Tiny:
+http://www.cpan.org/modules/03modlist.data.gz
+Reading '/home/flynn/.cpan/sources/modules/03modlist.data.gz'
+DONE
+Writing /home/flynn/.cpan/Metadata
+Running install for module 'XML::Parser'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/T/TO/TODDR/XML-Parser-2.44.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/T/TO/TODDR/CHECKSUMS
+Checksum for /home/flynn/.cpan/sources/authors/id/T/TO/TODDR/XML-Parser-2.44.tar.gz ok
+'YAML' not installed, will not store persistent state
+Configuring T/TO/TODDR/XML-Parser-2.44.tar.gz with Makefile.PL
+Warning: prerequisite LWP::UserAgent 0 not found.
+Checking if your kit is complete...
+Looks good
+Writing MYMETA.yml and MYMETA.json
+Generating a Unix-style Makefile
+Writing Makefile for XML::Parser
+Writing MYMETA.yml and MYMETA.json
+  TODDR/XML-Parser-2.44.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for T/TO/TODDR/XML-Parser-2.44.tar.gz
+---- Unsatisfied dependencies detected during ----
+----       TODDR/XML-Parser-2.44.tar.gz       ----
+    LWP::UserAgent [requires]
+Running install for module 'LWP::UserAgent'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/E/ET/ETHER/libwww-perl-6.36.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/E/ET/ETHER/CHECKSUMS
+Checksum for /home/flynn/.cpan/sources/authors/id/E/ET/ETHER/libwww-perl-6.36.tar.gz ok
+Configuring E/ET/ETHER/libwww-perl-6.36.tar.gz with Makefile.PL
+Warning: prerequisite Encode::Locale 0 not found.
+Warning: prerequisite File::Listing 6 not found.
+Warning: prerequisite HTML::Entities 0 not found.
+Warning: prerequisite HTML::HeadParser 0 not found.
+Warning: prerequisite HTTP::Cookies 6 not found.
+Warning: prerequisite HTTP::Daemon 6 not found.
+Warning: prerequisite HTTP::Date 6 not found.
+Warning: prerequisite HTTP::Negotiate 6 not found.
+Warning: prerequisite HTTP::Request 6 not found.
+Warning: prerequisite HTTP::Request::Common 6 not found.
+Warning: prerequisite HTTP::Response 6 not found.
+Warning: prerequisite HTTP::Status 6 not found.
+Warning: prerequisite LWP::MediaTypes 6 not found.
+Warning: prerequisite Net::HTTP 6.07 not found.
+Warning: prerequisite Test::Fatal 0 not found.
+Warning: prerequisite Test::Needs 0 not found.
+Warning: prerequisite Test::RequiresInternet 0 not found.
+Warning: prerequisite Try::Tiny 0 not found.
+Warning: prerequisite URI 1.10 not found.
+Warning: prerequisite URI::Escape 0 not found.
+Warning: prerequisite WWW::RobotRules 6 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for libwww::perl
+Writing MYMETA.yml and MYMETA.json
+  ETHER/libwww-perl-6.36.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for E/ET/ETHER/libwww-perl-6.36.tar.gz
+---- Unsatisfied dependencies detected during ----
+----       ETHER/libwww-perl-6.36.tar.gz      ----
+    Encode::Locale [requires]
+    File::Listing [requires]
+    HTML::Entities [requires]
+    HTML::HeadParser [requires]
+    HTTP::Cookies [requires]
+    HTTP::Daemon [requires]
+    HTTP::Date [requires]
+    HTTP::Negotiate [requires]
+    HTTP::Request [requires]
+    HTTP::Request::Common [requires]
+    HTTP::Response [requires]
+    HTTP::Status [requires]
+    LWP::MediaTypes [requires]
+    Net::HTTP [requires]
+    Test::Fatal [build_requires]
+    Test::LeakTrace [build_requires,optional]
+    Test::Needs [build_requires]
+    Test::RequiresInternet [build_requires]
+    Try::Tiny [requires]
+    URI [requires]
+    URI::Escape [requires]
+    WWW::RobotRules [requires]
+Running install for module 'Encode::Locale'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GA/GAAS/Encode-Locale-1.05.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GA/GAAS/CHECKSUMS
+Checksum for /home/flynn/.cpan/sources/authors/id/G/GA/GAAS/Encode-Locale-1.05.tar.gz ok
+Configuring G/GA/GAAS/Encode-Locale-1.05.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Encode::Locale
+Writing MYMETA.yml and MYMETA.json
+  GAAS/Encode-Locale-1.05.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for G/GA/GAAS/Encode-Locale-1.05.tar.gz
+cp lib/Encode/Locale.pm blib/lib/Encode/Locale.pm
+Manifying 1 pod document
+  GAAS/Encode-Locale-1.05.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/alias.t ...... ok
+# ENCODING_LOCALE is UTF-8
+t/arg.t ........ ok
+t/env.t ........ ok
+t/tain.t ....... ok
+t/warn_once.t .. ok
+All tests successful.
+
+Test Summary Report
+-------------------
+t/arg.t      (Wstat: 0 Tests: 4 Failed: 0)
+  TODO passed:   1-4
+Files=5, Tests=28,  0 wallclock secs ( 0.03 usr  0.00 sys +  0.27 cusr  0.04 csys =  0.34 CPU)
+Result: PASS
+  GAAS/Encode-Locale-1.05.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 1 pod document
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Encode/Locale.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Encode::Locale.3
+  GAAS/Encode-Locale-1.05.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+Running install for module 'File::Listing'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz
+Checksum for /home/flynn/.cpan/sources/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz ok
+Configuring G/GA/GAAS/File-Listing-6.04.tar.gz with Makefile.PL
+Warning: prerequisite HTTP::Date 6 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for File::Listing
+Writing MYMETA.yml and MYMETA.json
+  GAAS/File-Listing-6.04.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for G/GA/GAAS/File-Listing-6.04.tar.gz
+---- Unsatisfied dependencies detected during ----
+----       GAAS/File-Listing-6.04.tar.gz      ----
+    HTTP::Date [requires]
+Running install for module 'HTTP::Date'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GA/GAAS/HTTP-Date-6.02.tar.gz
+Checksum for /home/flynn/.cpan/sources/authors/id/G/GA/GAAS/HTTP-Date-6.02.tar.gz ok
+Configuring G/GA/GAAS/HTTP-Date-6.02.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTTP::Date
+Writing MYMETA.yml and MYMETA.json
+  GAAS/HTTP-Date-6.02.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for G/GA/GAAS/HTTP-Date-6.02.tar.gz
+---- Unsatisfied dependencies detected during ----
+----        GAAS/HTTP-Date-6.02.tar.gz        ----
+    Time::Zone [requires,optional]
+cp lib/HTTP/Date.pm blib/lib/HTTP/Date.pm
+Manifying 1 pod document
+  GAAS/HTTP-Date-6.02.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/date.t .. ok
+All tests successful.
+Files=1, Tests=136,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.01 cusr  0.00 csys =  0.03 CPU)
+Result: PASS
+  GAAS/HTTP-Date-6.02.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 1 pod document
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/HTTP/Date.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/HTTP::Date.3
+  GAAS/HTTP-Date-6.02.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+Running install for module 'Time::Zone'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GB/GBARR/TimeDate-2.30.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GB/GBARR/CHECKSUMS
+Checksum for /home/flynn/.cpan/sources/authors/id/G/GB/GBARR/TimeDate-2.30.tar.gz ok
+Configuring G/GB/GBARR/TimeDate-2.30.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Date::Parse
+Writing MYMETA.yml and MYMETA.json
+  GBARR/TimeDate-2.30.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for G/GB/GBARR/TimeDate-2.30.tar.gz
+cp lib/Date/Language/Brazilian.pm blib/lib/Date/Language/Brazilian.pm
+cp lib/Time/Zone.pm blib/lib/Time/Zone.pm
+cp lib/Date/Language/Czech.pm blib/lib/Date/Language/Czech.pm
+cp lib/Date/Language/TigrinyaEthiopian.pm blib/lib/Date/Language/TigrinyaEthiopian.pm
+cp lib/Date/Format.pm blib/lib/Date/Format.pm
+cp lib/Date/Language/Tigrinya.pm blib/lib/Date/Language/Tigrinya.pm
+cp lib/Date/Language/Finnish.pm blib/lib/Date/Language/Finnish.pm
+cp lib/Date/Language/German.pm blib/lib/Date/Language/German.pm
+cp lib/Date/Language/Russian_koi8r.pm blib/lib/Date/Language/Russian_koi8r.pm
+cp lib/Date/Language/Greek.pm blib/lib/Date/Language/Greek.pm
+cp lib/Date/Language/Icelandic.pm blib/lib/Date/Language/Icelandic.pm
+cp lib/Date/Language/Russian_cp1251.pm blib/lib/Date/Language/Russian_cp1251.pm
+cp lib/Date/Language/Danish.pm blib/lib/Date/Language/Danish.pm
+cp lib/Date/Language.pm blib/lib/Date/Language.pm
+cp lib/Date/Language/Afar.pm blib/lib/Date/Language/Afar.pm
+cp lib/Date/Language/English.pm blib/lib/Date/Language/English.pm
+cp lib/Date/Language/Swedish.pm blib/lib/Date/Language/Swedish.pm
+cp lib/Date/Language/Dutch.pm blib/lib/Date/Language/Dutch.pm
+cp lib/Date/Language/Bulgarian.pm blib/lib/Date/Language/Bulgarian.pm
+cp lib/Date/Language/Russian.pm blib/lib/Date/Language/Russian.pm
+cp lib/Date/Language/Spanish.pm blib/lib/Date/Language/Spanish.pm
+cp lib/Date/Language/Gedeo.pm blib/lib/Date/Language/Gedeo.pm
+cp lib/Date/Language/Hungarian.pm blib/lib/Date/Language/Hungarian.pm
+cp lib/Date/Language/Somali.pm blib/lib/Date/Language/Somali.pm
+cp lib/Date/Language/Oromo.pm blib/lib/Date/Language/Oromo.pm
+cp lib/Date/Language/Sidama.pm blib/lib/Date/Language/Sidama.pm
+cp lib/Date/Language/Chinese_GB.pm blib/lib/Date/Language/Chinese_GB.pm
+cp lib/Date/Language/Amharic.pm blib/lib/Date/Language/Amharic.pm
+cp lib/Date/Language/Italian.pm blib/lib/Date/Language/Italian.pm
+cp lib/Date/Parse.pm blib/lib/Date/Parse.pm
+cp lib/Date/Language/Chinese.pm blib/lib/Date/Language/Chinese.pm
+cp lib/Date/Language/French.pm blib/lib/Date/Language/French.pm
+cp lib/Date/Language/TigrinyaEritrean.pm blib/lib/Date/Language/TigrinyaEritrean.pm
+cp lib/Date/Language/Norwegian.pm blib/lib/Date/Language/Norwegian.pm
+cp lib/Date/Language/Turkish.pm blib/lib/Date/Language/Turkish.pm
+cp lib/Date/Language/Austrian.pm blib/lib/Date/Language/Austrian.pm
+cp lib/Date/Language/Romanian.pm blib/lib/Date/Language/Romanian.pm
+Manifying 6 pod documents
+  GBARR/TimeDate-2.30.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/cpanrt.t ... ok
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+Redundant argument in printf at t/date.t line 180.
+t/date.t ..... ok
+t/format.t ... ok
+t/getdate.t .. ok
+t/lang.t ..... ok
+All tests successful.
+Files=5, Tests=508,  1 wallclock secs ( 0.04 usr  0.01 sys +  0.14 cusr  0.01 csys =  0.20 CPU)
+Result: PASS
+  GBARR/TimeDate-2.30.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 6 pod documents
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Parse.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Format.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Afar.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Austrian.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/German.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Dutch.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Italian.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Brazilian.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Spanish.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/English.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/TigrinyaEritrean.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Finnish.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Amharic.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Greek.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Chinese_GB.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Sidama.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Danish.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Turkish.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Norwegian.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Czech.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Russian_koi8r.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Tigrinya.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Gedeo.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Oromo.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/TigrinyaEthiopian.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Hungarian.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Bulgarian.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Swedish.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Romanian.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Russian_cp1251.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Russian.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Somali.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Chinese.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/Icelandic.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Date/Language/French.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Time/Zone.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Date::Language::Hungarian.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Date::Language.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Date::Parse.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Date::Language::Bulgarian.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Date::Format.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Time::Zone.3
+  GBARR/TimeDate-2.30.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+  GAAS/File-Listing-6.04.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/File-Listing-6.04-0
+  GAAS/File-Listing-6.04.tar.gz
+  Has already been prepared
+Running make for G/GA/GAAS/File-Listing-6.04.tar.gz
+cp lib/File/Listing.pm blib/lib/File/Listing.pm
+Manifying 1 pod document
+  GAAS/File-Listing-6.04.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/apache.t .. ok
+t/dosftp.t .. ok
+t/ls-lR.t ... ok
+t/perm1.t ... ok
+t/perm2.t ... ok
+t/perm3.t ... ok
+t/perm4.t ... ok
+All tests successful.
+Files=7, Tests=16402,  2 wallclock secs ( 0.66 usr  0.11 sys +  1.58 cusr  0.18 csys =  2.53 CPU)
+Result: PASS
+  GAAS/File-Listing-6.04.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 1 pod document
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/File/Listing.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/File::Listing.3
+  GAAS/File-Listing-6.04.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+Running install for module 'HTML::Entities'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GA/GAAS/HTML-Parser-3.72.tar.gz
+Checksum for /home/flynn/.cpan/sources/authors/id/G/GA/GAAS/HTML-Parser-3.72.tar.gz ok
+Configuring G/GA/GAAS/HTML-Parser-3.72.tar.gz with Makefile.PL
+Warning: prerequisite HTML::Tagset 3 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTML::Parser
+Writing MYMETA.yml and MYMETA.json
+  GAAS/HTML-Parser-3.72.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for G/GA/GAAS/HTML-Parser-3.72.tar.gz
+---- Unsatisfied dependencies detected during ----
+----       GAAS/HTML-Parser-3.72.tar.gz       ----
+    HTML::Tagset [requires]
+    HTTP::Headers [requires,optional]
+Running install for module 'HTML::Tagset'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/P/PE/PETDANCE/CHECKSUMS
+Checksum for /home/flynn/.cpan/sources/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz ok
+Configuring P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTML::Tagset
+Writing MYMETA.yml and MYMETA.json
+  PETDANCE/HTML-Tagset-3.20.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
+cp Tagset.pm blib/lib/HTML/Tagset.pm
+Manifying 1 pod document
+  PETDANCE/HTML-Tagset-3.20.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00_about_verbose.t .. ok
+t/01_old_junk.t ....... ok
+t/pod.t ............... skipped: Test::Pod 1.14 required for testing POD
+All tests successful.
+Files=3, Tests=3,  0 wallclock secs ( 0.03 usr  0.00 sys +  0.04 cusr  0.01 csys =  0.08 CPU)
+Result: PASS
+  PETDANCE/HTML-Tagset-3.20.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 1 pod document
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/HTML/Tagset.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/HTML::Tagset.3
+  PETDANCE/HTML-Tagset-3.20.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+  GAAS/HTML-Parser-3.72.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTML-Parser-3.72-0
+  GAAS/HTML-Parser-3.72.tar.gz
+  Has already been prepared
+Running make for G/GA/GAAS/HTML-Parser-3.72.tar.gz
+---- Unsatisfied dependencies detected during ----
+----       GAAS/HTML-Parser-3.72.tar.gz       ----
+    HTTP::Headers [requires,optional]
+cp lib/HTML/TokeParser.pm blib/lib/HTML/TokeParser.pm
+cp lib/HTML/HeadParser.pm blib/lib/HTML/HeadParser.pm
+cp lib/HTML/PullParser.pm blib/lib/HTML/PullParser.pm
+cp lib/HTML/Entities.pm blib/lib/HTML/Entities.pm
+cp Parser.pm blib/lib/HTML/Parser.pm
+cp lib/HTML/Filter.pm blib/lib/HTML/Filter.pm
+cp lib/HTML/LinkExtor.pm blib/lib/HTML/LinkExtor.pm
+Running Mkbootstrap for Parser ()
+chmod 644 "Parser.bs"
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- Parser.bs blib/arch/auto/HTML/Parser/Parser.bs 644
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/ExtUtils/xsubpp"  -typemap '/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/ExtUtils/typemap' -typemap '/home/flynn/.cpan/build/HTML-Parser-3.72-0/typemap'  Parser.xs > Parser.xsc
+mv Parser.xsc Parser.c
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" mkhctype >hctype.h
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" mkpfunc >pfunc.h
+cc -c   -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/home/linuxbrew/.linuxbrew/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DVERSION=\"3.72\" -DXS_VERSION=\"3.72\" -fPIC "-I/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/CORE"  -DMARKED_SECTION Parser.c
+rm -f blib/arch/auto/HTML/Parser/Parser.so
+cc  -shared -O2 -L/usr/local/lib -fstack-protector-strong  Parser.o  -o blib/arch/auto/HTML/Parser/Parser.so  \
+      \
+  
+chmod 755 blib/arch/auto/HTML/Parser/Parser.so
+Manifying 7 pod documents
+  GAAS/HTML-Parser-3.72.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- Parser.bs blib/arch/auto/HTML/Parser/Parser.bs 644
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/api_version.t ...... ok
+t/argspec-bad.t ...... ok
+t/argspec.t .......... ok
+t/argspec2.t ......... ok
+t/attr-encoded.t ..... ok
+t/callback.t ......... ok
+t/case-sensitive.t ... ok
+t/cases.t ............ ok
+t/comment.t .......... ok
+t/crashme.t .......... ok
+t/declaration.t ...... ok
+t/default.t .......... ok
+t/document.t ......... ok
+t/dtext.t ............ ok
+t/entities.t ......... ok
+t/entities2.t ........ ok
+t/filter-methods.t ... ok
+t/filter.t ........... ok
+t/handler-eof.t ...... ok
+t/handler.t .......... ok
+t/headparser-http.t .. ok
+t/headparser.t ....... ok
+t/ignore.t ........... ok
+t/largetags.t ........ ok
+t/linkextor-base.t ... ok
+t/linkextor-rel.t .... ok
+t/magic.t ............ ok
+t/marked-sect.t ...... ok
+t/msie-compat.t ...... ok
+t/offset.t ........... ok
+t/options.t .......... ok
+t/parsefile.t ........ ok
+t/parser.t ........... ok
+t/plaintext.t ........ ok
+t/pod.t .............. skipped: Test::Pod 1.00 required for testing POD
+t/process.t .......... ok
+t/pullparser.t ....... ok
+t/script.t ........... ok
+t/skipped-text.t ..... ok
+t/stack-realloc.t .... ok
+t/textarea.t ......... ok
+t/threads.t .......... ok
+t/tokeparser.t ....... ok
+t/uentities.t ........ ok
+t/unbroken-text.t .... ok
+t/unicode-bom.t ...... ok
+t/unicode.t .......... ok
+t/xml-mode.t ......... ok
+All tests successful.
+Files=48, Tests=451,  2 wallclock secs ( 0.08 usr  0.06 sys +  2.12 cusr  0.32 csys =  2.58 CPU)
+Result: PASS
+  GAAS/HTML-Parser-3.72.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- Parser.bs blib/arch/auto/HTML/Parser/Parser.bs 644
+Manifying 7 pod documents
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi/auto/HTML/Parser/Parser.so
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi/HTML/LinkExtor.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi/HTML/Filter.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi/HTML/PullParser.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi/HTML/TokeParser.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi/HTML/Parser.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi/HTML/HeadParser.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi/HTML/Entities.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/HTML::Filter.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/HTML::HeadParser.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/HTML::Parser.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/HTML::TokeParser.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/HTML::PullParser.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/HTML::Entities.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/HTML::LinkExtor.3
+  GAAS/HTML-Parser-3.72.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+Running install for module 'HTTP::Headers'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/O/OA/OALDERS/HTTP-Message-6.18.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/O/OA/OALDERS/CHECKSUMS
+Checksum for /home/flynn/.cpan/sources/authors/id/O/OA/OALDERS/HTTP-Message-6.18.tar.gz ok
+Configuring O/OA/OALDERS/HTTP-Message-6.18.tar.gz with Makefile.PL
+Warning: prerequisite IO::HTML 0 not found.
+Warning: prerequisite LWP::MediaTypes 6 not found.
+Warning: prerequisite Try::Tiny 0 not found.
+Warning: prerequisite URI 1.10 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTTP::Message
+Writing MYMETA.yml and MYMETA.json
+  OALDERS/HTTP-Message-6.18.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for O/OA/OALDERS/HTTP-Message-6.18.tar.gz
+---- Unsatisfied dependencies detected during ----
+----     OALDERS/HTTP-Message-6.18.tar.gz     ----
+    IO::HTML [requires]
+    LWP::MediaTypes [requires]
+    Try::Tiny [build_requires]
+    URI [requires]
+Running install for module 'IO::HTML'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/C/CJ/CJM/IO-HTML-1.001.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/C/CJ/CJM/CHECKSUMS
+Checksum for /home/flynn/.cpan/sources/authors/id/C/CJ/CJM/IO-HTML-1.001.tar.gz ok
+Configuring C/CJ/CJM/IO-HTML-1.001.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for IO::HTML
+Writing MYMETA.yml and MYMETA.json
+  CJM/IO-HTML-1.001.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for C/CJ/CJM/IO-HTML-1.001.tar.gz
+cp lib/IO/HTML.pm blib/lib/IO/HTML.pm
+Manifying 1 pod document
+  CJM/IO-HTML-1.001.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-all_prereqs.t .. ok
+# Testing IO::HTML 1.001
+t/00-load.t ......... ok
+t/10-find.t ......... ok
+t/20-open.t ......... ok
+t/30-outfile.t ...... ok
+All tests successful.
+Files=5, Tests=139,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.27 cusr  0.02 csys =  0.33 CPU)
+Result: PASS
+  CJM/IO-HTML-1.001.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 1 pod document
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/IO/HTML.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/IO::HTML.3
+  CJM/IO-HTML-1.001.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+Running install for module 'LWP::MediaTypes'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz
+Checksum for /home/flynn/.cpan/sources/authors/id/G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz ok
+Configuring G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for LWP::MediaTypes
+Writing MYMETA.yml and MYMETA.json
+  GAAS/LWP-MediaTypes-6.02.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz
+cp lib/LWP/MediaTypes.pm blib/lib/LWP/MediaTypes.pm
+cp lib/LWP/media.types blib/lib/LWP/media.types
+Manifying 1 pod document
+  GAAS/LWP-MediaTypes-6.02.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/mediatypes.t .. ok
+All tests successful.
+Files=1, Tests=39,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.01 cusr  0.00 csys =  0.03 CPU)
+Result: PASS
+  GAAS/LWP-MediaTypes-6.02.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 1 pod document
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/LWP/MediaTypes.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/LWP/media.types
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/LWP::MediaTypes.3
+  GAAS/LWP-MediaTypes-6.02.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+Running install for module 'Try::Tiny'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/E/ET/ETHER/Try-Tiny-0.30.tar.gz
+Checksum for /home/flynn/.cpan/sources/authors/id/E/ET/ETHER/Try-Tiny-0.30.tar.gz ok
+Configuring E/ET/ETHER/Try-Tiny-0.30.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Try::Tiny
+Writing MYMETA.yml and MYMETA.json
+  ETHER/Try-Tiny-0.30.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for E/ET/ETHER/Try-Tiny-0.30.tar.gz
+cp lib/Try/Tiny.pm blib/lib/Try/Tiny.pm
+Manifying 1 pod document
+  ETHER/Try-Tiny-0.30.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# 
+# Versions for all modules listed in MYMETA.json (including optional ones):
+# 
+# === Configure Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.34
+# 
+# === Configure Suggests ===
+# 
+#     Module      Want    Have
+#     -------- ------- -------
+#     JSON::PP 2.27300 2.97001
+# 
+# === Build Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.34
+# 
+# === Test Requires ===
+# 
+#     Module              Want     Have
+#     ------------------- ---- --------
+#     ExtUtils::MakeMaker  any     7.34
+#     File::Spec           any     3.74
+#     Test::More           any 1.302133
+#     if                   any   0.0608
+# 
+# === Test Recommends ===
+# 
+#     Module         Want     Have
+#     ---------- -------- --------
+#     CPAN::Meta 2.120900 2.150010
+# 
+# === Test Suggests ===
+# 
+#     Module                    Want    Have
+#     ------------------------ ----- -------
+#     CPAN::Meta::Check        0.011 missing
+#     CPAN::Meta::Requirements   any   2.140
+#     Capture::Tiny             0.12 missing
+# 
+# === Runtime Requires ===
+# 
+#     Module   Want Have
+#     -------- ---- ----
+#     Carp      any 1.50
+#     Exporter 5.57 5.73
+#     constant  any 1.33
+#     strict    any 1.11
+#     warnings  any 1.42
+# 
+# === Runtime Suggests ===
+# 
+#     Module    Want    Have
+#     --------- ---- -------
+#     Sub::Name 0.08 missing
+#     Sub::Util  any    1.50
+# 
+# === Other Modules ===
+# 
+#     Module           Have
+#     ------------- -------
+#     JSON::PP      2.97001
+#     Pod::Coverage missing
+#     Sub::Name     missing
+#     YAML          missing
+#     autodie          2.29
+# 
+t/00-report-prereqs.t .......... ok
+t/basic.t ...................... ok
+t/context.t .................... ok
+t/erroneous_usage.t ............ ok
+t/finally.t .................... ok
+t/given_when.t ................. skipped: Tests skipped on perl 5.27.7+, pending resolution of smartmatch changes
+t/global_destruction_forked.t .. ok
+t/global_destruction_load.t .... skipped: Capture::Tiny 0.12 required
+t/named.t ...................... ok
+t/when.t ....................... skipped: Tests skipped on perl 5.27.7+, pending resolution of smartmatch changes
+t/zzz-check-breaks.t ........... ok
+All tests successful.
+Files=11, Tests=97,  1 wallclock secs ( 0.03 usr  0.01 sys +  0.57 cusr  0.06 csys =  0.67 CPU)
+Result: PASS
+  ETHER/Try-Tiny-0.30.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 1 pod document
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Try/Tiny.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Try::Tiny.3
+  ETHER/Try-Tiny-0.30.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+Running install for module 'URI'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/O/OA/OALDERS/URI-1.75.tar.gz
+Checksum for /home/flynn/.cpan/sources/authors/id/O/OA/OALDERS/URI-1.75.tar.gz ok
+/bin/tar: URI-1.75/cpanfile: time stamp 2019-01-09 05:45:42 is 21734.706261053 s in the future
+/bin/tar: URI-1.75/Changes: time stamp 2019-01-09 05:45:42 is 21734.706000108 s in the future
+/bin/tar: URI-1.75/MANIFEST: time stamp 2019-01-09 05:45:42 is 21734.705967637 s in the future
+/bin/tar: URI-1.75/LICENSE: time stamp 2019-01-09 05:45:42 is 21734.705919572 s in the future
+/bin/tar: URI-1.75/t: time stamp 2019-01-09 05:45:42 is 21734.70588493 s in the future
+/bin/tar: URI-1.75/xt: time stamp 2019-01-09 05:45:42 is 21734.7058587 s in the future
+/bin/tar: URI-1.75/META.yml: time stamp 2019-01-09 05:45:42 is 21734.70582154 s in the future
+/bin/tar: URI-1.75/META.json: time stamp 2019-01-09 05:45:42 is 21734.705550152 s in the future
+/bin/tar: URI-1.75/uri-test: time stamp 2019-01-09 05:45:42 is 21734.705509841 s in the future
+/bin/tar: URI-1.75/CONTRIBUTING.md: time stamp 2019-01-09 05:45:42 is 21734.705450492 s in the future
+/bin/tar: URI-1.75/lib: time stamp 2019-01-09 05:45:42 is 21734.705413133 s in the future
+/bin/tar: URI-1.75/Makefile.PL: time stamp 2019-01-09 05:45:42 is 21734.705390262 s in the future
+/bin/tar: URI-1.75/dist.ini: time stamp 2019-01-09 05:45:42 is 21734.705365366 s in the future
+/bin/tar: URI-1.75/lib/URI.pm: time stamp 2019-01-09 05:45:42 is 21734.705315987 s in the future
+/bin/tar: URI-1.75/lib/URI/gopher.pm: time stamp 2019-01-09 05:45:42 is 21734.705277797 s in the future
+/bin/tar: URI-1.75/lib/URI/ldapi.pm: time stamp 2019-01-09 05:45:42 is 21734.705253784 s in the future
+/bin/tar: URI-1.75/lib/URI/telnet.pm: time stamp 2019-01-09 05:45:42 is 21734.705231654 s in the future
+/bin/tar: URI-1.75/lib/URI/QueryParam.pm: time stamp 2019-01-09 05:45:42 is 21734.70520636 s in the future
+/bin/tar: URI-1.75/lib/URI/URL.pm: time stamp 2019-01-09 05:45:42 is 21734.705179079 s in the future
+/bin/tar: URI-1.75/lib/URI/rsync.pm: time stamp 2019-01-09 05:45:42 is 21734.705155181 s in the future
+/bin/tar: URI-1.75/lib/URI/https.pm: time stamp 2019-01-09 05:45:42 is 21734.705129786 s in the future
+/bin/tar: URI-1.75/lib/URI/sip.pm: time stamp 2019-01-09 05:45:42 is 21734.705107379 s in the future
+/bin/tar: URI-1.75/lib/URI/_punycode.pm: time stamp 2019-01-09 05:45:42 is 21734.705079317 s in the future
+/bin/tar: URI-1.75/lib/URI/file: time stamp 2019-01-09 05:45:42 is 21734.705052108 s in the future
+/bin/tar: URI-1.75/lib/URI/ldap.pm: time stamp 2019-01-09 05:45:42 is 21734.705031038 s in the future
+/bin/tar: URI-1.75/lib/URI/_query.pm: time stamp 2019-01-09 05:45:42 is 21734.705004391 s in the future
+/bin/tar: URI-1.75/lib/URI/urn.pm: time stamp 2019-01-09 05:45:42 is 21734.704976737 s in the future
+/bin/tar: URI-1.75/lib/URI/_generic.pm: time stamp 2019-01-09 05:45:42 is 21734.704951459 s in the future
+/bin/tar: URI-1.75/lib/URI/_userpass.pm: time stamp 2019-01-09 05:45:42 is 21734.704929095 s in the future
+/bin/tar: URI-1.75/lib/URI/snews.pm: time stamp 2019-01-09 05:45:42 is 21734.704905468 s in the future
+/bin/tar: URI-1.75/lib/URI/nntp.pm: time stamp 2019-01-09 05:45:42 is 21734.704882816 s in the future
+/bin/tar: URI-1.75/lib/URI/IRI.pm: time stamp 2019-01-09 05:45:42 is 21734.704860192 s in the future
+/bin/tar: URI-1.75/lib/URI/file.pm: time stamp 2019-01-09 05:45:42 is 21734.704830631 s in the future
+/bin/tar: URI-1.75/lib/URI/mms.pm: time stamp 2019-01-09 05:45:42 is 21734.704806864 s in the future
+/bin/tar: URI-1.75/lib/URI/rlogin.pm: time stamp 2019-01-09 05:45:42 is 21734.704783985 s in the future
+/bin/tar: URI-1.75/lib/URI/http.pm: time stamp 2019-01-09 05:45:42 is 21734.704761673 s in the future
+/bin/tar: URI-1.75/lib/URI/rtspu.pm: time stamp 2019-01-09 05:45:42 is 21734.7047381 s in the future
+/bin/tar: URI-1.75/lib/URI/Heuristic.pm: time stamp 2019-01-09 05:45:42 is 21734.704706816 s in the future
+/bin/tar: URI-1.75/lib/URI/_login.pm: time stamp 2019-01-09 05:45:42 is 21734.704620946 s in the future
+/bin/tar: URI-1.75/lib/URI/rtsp.pm: time stamp 2019-01-09 05:45:42 is 21734.704592173 s in the future
+/bin/tar: URI-1.75/lib/URI/_segment.pm: time stamp 2019-01-09 05:45:42 is 21734.704563461 s in the future
+/bin/tar: URI-1.75/lib/URI/ldaps.pm: time stamp 2019-01-09 05:45:42 is 21734.704540578 s in the future
+/bin/tar: URI-1.75/lib/URI/ssh.pm: time stamp 2019-01-09 05:45:42 is 21734.704433169 s in the future
+/bin/tar: URI-1.75/lib/URI/sftp.pm: time stamp 2019-01-09 05:45:42 is 21734.704378102 s in the future
+/bin/tar: URI-1.75/lib/URI/_ldap.pm: time stamp 2019-01-09 05:45:42 is 21734.704347099 s in the future
+/bin/tar: URI-1.75/lib/URI/urn: time stamp 2019-01-09 05:45:42 is 21734.704306504 s in the future
+/bin/tar: URI-1.75/lib/URI/data.pm: time stamp 2019-01-09 05:45:42 is 21734.704274 s in the future
+/bin/tar: URI-1.75/lib/URI/sips.pm: time stamp 2019-01-09 05:45:42 is 21734.704238335 s in the future
+/bin/tar: URI-1.75/lib/URI/pop.pm: time stamp 2019-01-09 05:45:42 is 21734.704207546 s in the future
+/bin/tar: URI-1.75/lib/URI/tn3270.pm: time stamp 2019-01-09 05:45:42 is 21734.704184129 s in the future
+/bin/tar: URI-1.75/lib/URI/news.pm: time stamp 2019-01-09 05:45:42 is 21734.704161562 s in the future
+/bin/tar: URI-1.75/lib/URI/Split.pm: time stamp 2019-01-09 05:45:42 is 21734.704139406 s in the future
+/bin/tar: URI-1.75/lib/URI/_idna.pm: time stamp 2019-01-09 05:45:42 is 21734.704098309 s in the future
+/bin/tar: URI-1.75/lib/URI/WithBase.pm: time stamp 2019-01-09 05:45:42 is 21734.704072977 s in the future
+/bin/tar: URI-1.75/lib/URI/_foreign.pm: time stamp 2019-01-09 05:45:42 is 21734.704049925 s in the future
+/bin/tar: URI-1.75/lib/URI/Escape.pm: time stamp 2019-01-09 05:45:42 is 21734.704011329 s in the future
+/bin/tar: URI-1.75/lib/URI/_server.pm: time stamp 2019-01-09 05:45:42 is 21734.703984963 s in the future
+/bin/tar: URI-1.75/lib/URI/ftp.pm: time stamp 2019-01-09 05:45:42 is 21734.703959092 s in the future
+/bin/tar: URI-1.75/lib/URI/mailto.pm: time stamp 2019-01-09 05:45:42 is 21734.703936052 s in the future
+/bin/tar: URI-1.75/lib/URI/urn/oid.pm: time stamp 2019-01-09 05:45:42 is 21734.703912707 s in the future
+/bin/tar: URI-1.75/lib/URI/urn/isbn.pm: time stamp 2019-01-09 05:45:42 is 21734.703890572 s in the future
+/bin/tar: URI-1.75/lib/URI/file/Mac.pm: time stamp 2019-01-09 05:45:42 is 21734.70386793 s in the future
+/bin/tar: URI-1.75/lib/URI/file/Win32.pm: time stamp 2019-01-09 05:45:42 is 21734.703843904 s in the future
+/bin/tar: URI-1.75/lib/URI/file/Unix.pm: time stamp 2019-01-09 05:45:42 is 21734.703820182 s in the future
+/bin/tar: URI-1.75/lib/URI/file/OS2.pm: time stamp 2019-01-09 05:45:42 is 21734.703797721 s in the future
+/bin/tar: URI-1.75/lib/URI/file/FAT.pm: time stamp 2019-01-09 05:45:42 is 21734.703775824 s in the future
+/bin/tar: URI-1.75/lib/URI/file/QNX.pm: time stamp 2019-01-09 05:45:42 is 21734.703752102 s in the future
+/bin/tar: URI-1.75/lib/URI/file/Base.pm: time stamp 2019-01-09 05:45:42 is 21734.703728961 s in the future
+/bin/tar: URI-1.75/lib/URI: time stamp 2019-01-09 05:45:42 is 21734.703716221 s in the future
+/bin/tar: URI-1.75/xt/author: time stamp 2019-01-09 05:45:42 is 21734.703676446 s in the future
+/bin/tar: URI-1.75/xt/release/changes_has_content.t: time stamp 2019-01-09 05:45:42 is 21734.703637227 s in the future
+/bin/tar: URI-1.75/xt/release/distmeta.t: time stamp 2019-01-09 05:45:42 is 21734.703613515 s in the future
+/bin/tar: URI-1.75/xt/release: time stamp 2019-01-09 05:45:42 is 21734.703601088 s in the future
+/bin/tar: URI-1.75/xt/author/mojibake.t: time stamp 2019-01-09 05:45:42 is 21734.703582525 s in the future
+/bin/tar: URI-1.75/xt/author/minimum-version.t: time stamp 2019-01-09 05:45:42 is 21734.703555915 s in the future
+/bin/tar: URI-1.75/xt/author/test-version.t: time stamp 2019-01-09 05:45:42 is 21734.703520938 s in the future
+/bin/tar: URI-1.75/xt/author/00-compile.t: time stamp 2019-01-09 05:45:42 is 21734.703488755 s in the future
+/bin/tar: URI-1.75/xt/author/pod-syntax.t: time stamp 2019-01-09 05:45:42 is 21734.703461456 s in the future
+/bin/tar: URI-1.75/xt/author/portability.t: time stamp 2019-01-09 05:45:42 is 21734.703436525 s in the future
+/bin/tar: URI-1.75/xt/author/pod-spell.t: time stamp 2019-01-09 05:45:42 is 21734.703414738 s in the future
+/bin/tar: URI-1.75/xt/author/pod-coverage.t: time stamp 2019-01-09 05:45:42 is 21734.703390614 s in the future
+/bin/tar: URI-1.75/t/num_eq.t: time stamp 2019-01-09 05:45:42 is 21734.703366106 s in the future
+/bin/tar: URI-1.75/t/generic.t: time stamp 2019-01-09 05:45:42 is 21734.70332629 s in the future
+/bin/tar: URI-1.75/t/old-relbase.t: time stamp 2019-01-09 05:45:42 is 21734.703301171 s in the future
+/bin/tar: URI-1.75/t/roytest3.html: time stamp 2019-01-09 05:45:42 is 21734.703274989 s in the future
+/bin/tar: URI-1.75/t/urn-isbn.t: time stamp 2019-01-09 05:45:42 is 21734.703252185 s in the future
+/bin/tar: URI-1.75/t/mix.t: time stamp 2019-01-09 05:45:42 is 21734.703229616 s in the future
+/bin/tar: URI-1.75/t/sort-hash-query-form.t: time stamp 2019-01-09 05:45:42 is 21734.703206926 s in the future
+/bin/tar: URI-1.75/t/http.t: time stamp 2019-01-09 05:45:42 is 21734.70318477 s in the future
+/bin/tar: URI-1.75/t/roytest2.html: time stamp 2019-01-09 05:45:42 is 21734.70316024 s in the future
+/bin/tar: URI-1.75/t/ldap.t: time stamp 2019-01-09 05:45:42 is 21734.703138145 s in the future
+/bin/tar: URI-1.75/t/cwd.t: time stamp 2019-01-09 05:45:42 is 21734.70311307 s in the future
+/bin/tar: URI-1.75/t/gopher.t: time stamp 2019-01-09 05:45:42 is 21734.703088195 s in the future
+/bin/tar: URI-1.75/t/rtsp.t: time stamp 2019-01-09 05:45:42 is 21734.703065637 s in the future
+/bin/tar: URI-1.75/t/query.t: time stamp 2019-01-09 05:45:42 is 21734.70304362 s in the future
+/bin/tar: URI-1.75/t/roy-test.t: time stamp 2019-01-09 05:45:42 is 21734.703020999 s in the future
+/bin/tar: URI-1.75/t/rsync.t: time stamp 2019-01-09 05:45:42 is 21734.702998717 s in the future
+/bin/tar: URI-1.75/t/roytest5.html: time stamp 2019-01-09 05:45:42 is 21734.702964593 s in the future
+/bin/tar: URI-1.75/t/data.t: time stamp 2019-01-09 05:45:42 is 21734.70293849 s in the future
+/bin/tar: URI-1.75/t/storable.t: time stamp 2019-01-09 05:45:42 is 21734.702915537 s in the future
+/bin/tar: URI-1.75/t/clone.t: time stamp 2019-01-09 05:45:42 is 21734.702892874 s in the future
+/bin/tar: URI-1.75/t/ftp.t: time stamp 2019-01-09 05:45:42 is 21734.70286928 s in the future
+/bin/tar: URI-1.75/t/file.t: time stamp 2019-01-09 05:45:42 is 21734.702833602 s in the future
+/bin/tar: URI-1.75/t/abs.t: time stamp 2019-01-09 05:45:42 is 21734.70280544 s in the future
+/bin/tar: URI-1.75/t/rfc2732.t: time stamp 2019-01-09 05:45:42 is 21734.702783207 s in the future
+/bin/tar: URI-1.75/t/old-file.t: time stamp 2019-01-09 05:45:42 is 21734.702758965 s in the future
+/bin/tar: URI-1.75/t/sip.t: time stamp 2019-01-09 05:45:42 is 21734.702736578 s in the future
+/bin/tar: URI-1.75/t/scheme-exceptions.t: time stamp 2019-01-09 05:45:42 is 21734.702714991 s in the future
+/bin/tar: URI-1.75/t/roytest4.html: time stamp 2019-01-09 05:45:42 is 21734.702689839 s in the future
+/bin/tar: URI-1.75/t/punycode.t: time stamp 2019-01-09 05:45:42 is 21734.702667711 s in the future
+/bin/tar: URI-1.75/t/heuristic.t: time stamp 2019-01-09 05:45:42 is 21734.702643164 s in the future
+/bin/tar: URI-1.75/t/idna.t: time stamp 2019-01-09 05:45:42 is 21734.702618705 s in the future
+/bin/tar: URI-1.75/t/iri.t: time stamp 2019-01-09 05:45:42 is 21734.702596386 s in the future
+/bin/tar: URI-1.75/t/storable-test.pl: time stamp 2019-01-09 05:45:42 is 21734.702573441 s in the future
+/bin/tar: URI-1.75/t/escape-char.t: time stamp 2019-01-09 05:45:42 is 21734.702530212 s in the future
+/bin/tar: URI-1.75/t/query-param.t: time stamp 2019-01-09 05:45:42 is 21734.702492936 s in the future
+/bin/tar: URI-1.75/t/escape.t: time stamp 2019-01-09 05:45:42 is 21734.70244237 s in the future
+/bin/tar: URI-1.75/t/00-report-prereqs.t: time stamp 2019-01-09 05:45:42 is 21734.70240164 s in the future
+/bin/tar: URI-1.75/t/pop.t: time stamp 2019-01-09 05:45:42 is 21734.702374437 s in the future
+/bin/tar: URI-1.75/t/old-base.t: time stamp 2019-01-09 05:45:42 is 21734.702293961 s in the future
+/bin/tar: URI-1.75/t/rel.t: time stamp 2019-01-09 05:45:42 is 21734.702257461 s in the future
+/bin/tar: URI-1.75/t/00-report-prereqs.dd: time stamp 2019-01-09 05:45:42 is 21734.702225921 s in the future
+/bin/tar: URI-1.75/t/roytest1.html: time stamp 2019-01-09 05:45:42 is 21734.702162298 s in the future
+/bin/tar: URI-1.75/t/path-segments.t: time stamp 2019-01-09 05:45:42 is 21734.70213071 s in the future
+/bin/tar: URI-1.75/t/urn-oid.t: time stamp 2019-01-09 05:45:42 is 21734.702108061 s in the future
+/bin/tar: URI-1.75/t/mms.t: time stamp 2019-01-09 05:45:42 is 21734.702082575 s in the future
+/bin/tar: URI-1.75/t/mailto.t: time stamp 2019-01-09 05:45:42 is 21734.702059709 s in the future
+/bin/tar: URI-1.75/t/old-absconf.t: time stamp 2019-01-09 05:45:42 is 21734.702036152 s in the future
+/bin/tar: URI-1.75/t/split.t: time stamp 2019-01-09 05:45:42 is 21734.702013498 s in the future
+/bin/tar: URI-1.75/t/utf8.t: time stamp 2019-01-09 05:45:42 is 21734.701986004 s in the future
+/bin/tar: URI-1.75/t/news.t: time stamp 2019-01-09 05:45:42 is 21734.701960176 s in the future
+/bin/tar: URI-1.75: time stamp 2019-01-09 05:45:42 is 21734.701940715 s in the future
+Configuring O/OA/OALDERS/URI-1.75.tar.gz with Makefile.PL
+Warning: prerequisite Test::Needs 0 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for URI
+Writing MYMETA.yml and MYMETA.json
+  OALDERS/URI-1.75.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for O/OA/OALDERS/URI-1.75.tar.gz
+---- Unsatisfied dependencies detected during ----
+----          OALDERS/URI-1.75.tar.gz         ----
+    Test::Needs [build_requires]
+Running install for module 'Test::Needs'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/H/HA/HAARG/Test-Needs-0.002005.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/H/HA/HAARG/CHECKSUMS
+Checksum for /home/flynn/.cpan/sources/authors/id/H/HA/HAARG/Test-Needs-0.002005.tar.gz ok
+Configuring H/HA/HAARG/Test-Needs-0.002005.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::Needs
+Writing MYMETA.yml and MYMETA.json
+  HAARG/Test-Needs-0.002005.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for H/HA/HAARG/Test-Needs-0.002005.tar.gz
+cp lib/Test/Needs.pm blib/lib/Test/Needs.pm
+Manifying 1 pod document
+  HAARG/Test-Needs-0.002005.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/basic.t ......... ok
+t/find_missing.t .. ok
+All tests successful.
+Files=2, Tests=83,  2 wallclock secs ( 0.02 usr  0.02 sys +  1.85 cusr  0.36 csys =  2.25 CPU)
+Result: PASS
+  HAARG/Test-Needs-0.002005.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 1 pod document
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Test/Needs.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Test::Needs.3
+  HAARG/Test-Needs-0.002005.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+  OALDERS/URI-1.75.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/URI-1.75-0
+  OALDERS/URI-1.75.tar.gz
+  Has already been prepared
+Running make for O/OA/OALDERS/URI-1.75.tar.gz
+make: Warning: File 'Makefile.PL' has modification time 21729 s in the future
+Makefile out-of-date with respect to Makefile.PL
+Cleaning current config before rebuilding Makefile...
+make -f Makefile.old clean > /dev/null 2>&1
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" Makefile.PL 
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for URI
+Writing MYMETA.yml and MYMETA.json
+==> Your Makefile has been rebuilt. <==
+==> Please rerun the make command.  <==
+false
+Makefile:925: recipe for target 'Makefile' failed
+make: *** [Makefile] Error 1
+  OALDERS/URI-1.75.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- NOT OK
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Message-6.18-0
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been prepared
+Running make for O/OA/OALDERS/HTTP-Message-6.18.tar.gz
+Warning: Prerequisite 'URI => 1.10' for 'OALDERS/HTTP-Message-6.18.tar.gz' failed when processing 'OALDERS/URI-1.75.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+cp lib/HTTP/Headers/Auth.pm blib/lib/HTTP/Headers/Auth.pm
+cp lib/HTTP/Headers/ETag.pm blib/lib/HTTP/Headers/ETag.pm
+cp lib/HTTP/Response.pm blib/lib/HTTP/Response.pm
+cp lib/HTTP/Headers/Util.pm blib/lib/HTTP/Headers/Util.pm
+cp lib/HTTP/Headers.pm blib/lib/HTTP/Headers.pm
+cp lib/HTTP/Request/Common.pm blib/lib/HTTP/Request/Common.pm
+cp lib/HTTP/Status.pm blib/lib/HTTP/Status.pm
+cp lib/HTTP/Message.pm blib/lib/HTTP/Message.pm
+cp lib/HTTP/Request.pm blib/lib/HTTP/Request.pm
+cp lib/HTTP/Config.pm blib/lib/HTTP/Config.pm
+Manifying 10 pod documents
+  OALDERS/HTTP-Message-6.18.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# 
+# Versions for all modules listed in MYMETA.json (including optional ones):
+# 
+# === Configure Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.34
+# 
+# === Configure Suggests ===
+# 
+#     Module      Want    Have
+#     -------- ------- -------
+#     JSON::PP 2.27300 2.97001
+# 
+# === Build Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.34
+# 
+# === Test Requires ===
+# 
+#     Module              Want     Have
+#     ------------------- ---- --------
+#     ExtUtils::MakeMaker  any     7.34
+#     File::Spec           any     3.74
+#     PerlIO::encoding     any     0.26
+#     Test::More          0.88 1.302133
+#     Time::Local          any     1.25
+#     Try::Tiny            any     0.30
+# 
+# === Test Recommends ===
+# 
+#     Module         Want     Have
+#     ---------- -------- --------
+#     CPAN::Meta 2.120900 2.150010
+# 
+# === Runtime Requires ===
+# 
+#     Module                      Want    Have
+#     -------------------------- ----- -------
+#     Carp                         any    1.50
+#     Compress::Raw::Zlib          any   2.076
+#     Encode                      2.21    2.97
+#     Encode::Locale                 1    1.05
+#     Exporter                    5.57    5.73
+#     HTTP::Date                     6    6.02
+#     IO::Compress::Bzip2        2.021   2.074
+#     IO::Compress::Deflate        any   2.074
+#     IO::Compress::Gzip           any   2.074
+#     IO::HTML                     any   1.001
+#     IO::Uncompress::Bunzip2    2.021   2.074
+#     IO::Uncompress::Gunzip       any   2.074
+#     IO::Uncompress::Inflate      any   2.074
+#     IO::Uncompress::RawInflate   any   2.074
+#     LWP::MediaTypes                6    6.02
+#     MIME::Base64                 2.1    3.15
+#     MIME::QuotedPrint            any    3.13
+#     Storable                     any    3.08
+#     URI                         1.10 missing
+#     base                         any    2.27
+#     strict                       any    1.11
+#     warnings                     any    1.42
+# 
+# 
+# *** WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING ***
+# 
+# The following REQUIRED prerequisites were not satisfied:
+# 
+# URI is not installed (version '1.10' required)
+# 
+t/00-report-prereqs.t ....... ok
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at (eval 9) line 1.
+Compilation failed in require at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 137.
+	...propagated at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 159.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib/HTTP/Request.pm line 8.
+Compilation failed in require at /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib/HTTP/Request/Common.pm line 15.
+Compilation failed in require at t/common-req.t line 7.
+BEGIN failed--compilation aborted at t/common-req.t line 7.
+t/common-req.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at (eval 9) line 1.
+Compilation failed in require at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 137.
+	...propagated at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 159.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib/HTTP/Response.pm line 8.
+Compilation failed in require at t/headers-auth.t line 8.
+BEGIN failed--compilation aborted at t/headers-auth.t line 8.
+t/headers-auth.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/headers-etag.t ............ ok
+t/headers-util.t ............ ok
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at t/headers.t line 249.
+# Looks like your test exited with 2 just after 122.
+t/headers.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 66/188 subtests 
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib/HTTP/Config.pm line 8.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib/HTTP/Config.pm line 8.
+Compilation failed in require at t/http-config.t line 7.
+BEGIN failed--compilation aborted at t/http-config.t line 7.
+t/http-config.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at (eval 9) line 1.
+Compilation failed in require at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 137.
+	...propagated at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 159.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib/HTTP/Response.pm line 8.
+Compilation failed in require at t/message-charset.t line 7.
+BEGIN failed--compilation aborted at t/message-charset.t line 7.
+t/message-charset.t ......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at (eval 9) line 1.
+Compilation failed in require at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 137.
+	...propagated at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 159.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib/HTTP/Response.pm line 8.
+Compilation failed in require at t/message-decode-xml.t line 11.
+BEGIN failed--compilation aborted at t/message-decode-xml.t line 11.
+t/message-decode-xml.t ...... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at (eval 10) line 1.
+Compilation failed in require at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 137.
+	...propagated at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 159.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib/HTTP/Request.pm line 8.
+Compilation failed in require at t/message-old.t line 12.
+# Looks like your test exited with 2 before it could output anything.
+t/message-old.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 20/20 subtests 
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at (eval 9) line 1.
+Compilation failed in require at t/message-parts.t line 7.
+BEGIN failed--compilation aborted at t/message-parts.t line 7.
+t/message-parts.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at (eval 10) line 1.
+Compilation failed in require at t/message.t line 10.
+# Looks like your test exited with 2 before it could output anything.
+t/message.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 194/194 subtests 
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at (eval 9) line 1.
+Compilation failed in require at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 137.
+	...propagated at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 159.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib/HTTP/Request.pm line 8.
+Compilation failed in require at t/request.t line 10.
+BEGIN failed--compilation aborted at t/request.t line 10.
+t/request.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at (eval 9) line 1.
+Compilation failed in require at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 137.
+	...propagated at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 159.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib/HTTP/Request.pm line 8.
+Compilation failed in require at /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib/HTTP/Request/Common.pm line 15.
+Compilation failed in require at t/request_type_with_data.t line 5.
+BEGIN failed--compilation aborted at t/request_type_with_data.t line 5.
+t/request_type_with_data.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at (eval 9) line 1.
+Compilation failed in require at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 137.
+	...propagated at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 159.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Message-6.18-0/blib/lib/HTTP/Request.pm line 8.
+Compilation failed in require at t/response.t line 11.
+BEGIN failed--compilation aborted at t/response.t line 11.
+t/response.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/status-old.t .............. ok
+t/status.t .................. ok
+
+Test Summary Report
+-------------------
+t/common-req.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/headers-auth.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/headers.t               (Wstat: 512 Tests: 122 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 188 tests but ran 122.
+t/http-config.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/message-charset.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/message-decode-xml.t    (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/message-old.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 20 tests but ran 0.
+t/message-parts.t         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/message.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 194 tests but ran 0.
+t/request.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/request_type_with_data.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/response.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=17, Tests=197,  1 wallclock secs ( 0.03 usr  0.03 sys +  0.87 cusr  0.10 csys =  1.03 CPU)
+Result: FAIL
+Failed 12/17 test programs. 0/197 subtests failed.
+Makefile:939: recipe for target 'test_dynamic' failed
+make: *** [test_dynamic] Error 255
+  OALDERS/HTTP-Message-6.18.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports OALDERS/HTTP-Message-6.18.tar.gz
+Running install for module 'HTTP::Headers'
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Message-6.18-0
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Won't repeat unsuccessful test during this command
+HTML::HeadParser is up to date (3.71).
+Running install for module 'HTTP::Cookies'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/O/OA/OALDERS/HTTP-Cookies-6.04.tar.gz
+Checksum for /home/flynn/.cpan/sources/authors/id/O/OA/OALDERS/HTTP-Cookies-6.04.tar.gz ok
+Configuring O/OA/OALDERS/HTTP-Cookies-6.04.tar.gz with Makefile.PL
+Warning: prerequisite HTTP::Headers::Util 6 not found.
+Warning: prerequisite HTTP::Request 0 not found.
+Warning: prerequisite HTTP::Response 0 not found.
+Warning: prerequisite URI 0 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTTP::Cookies
+Writing MYMETA.yml and MYMETA.json
+  OALDERS/HTTP-Cookies-6.04.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for O/OA/OALDERS/HTTP-Cookies-6.04.tar.gz
+---- Unsatisfied dependencies detected during ----
+----     OALDERS/HTTP-Cookies-6.04.tar.gz     ----
+    HTTP::Headers::Util [requires]
+    HTTP::Request [requires]
+    HTTP::Response [build_requires]
+    URI [build_requires]
+Running install for module 'HTTP::Headers::Util'
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Message-6.18-0
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Request'
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Message-6.18-0
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Response'
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Message-6.18-0
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'URI'
+  OALDERS/URI-1.75.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/URI-1.75-0
+  OALDERS/URI-1.75.tar.gz
+  Has already been prepared
+  OALDERS/URI-1.75.tar.gz
+  Could not make: Unknown error
+
+  OALDERS/HTTP-Cookies-6.04.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Cookies-6.04-0
+  OALDERS/HTTP-Cookies-6.04.tar.gz
+  Has already been prepared
+Running make for O/OA/OALDERS/HTTP-Cookies-6.04.tar.gz
+Warning: Prerequisite 'HTTP::Headers::Util => 6' for 'OALDERS/HTTP-Cookies-6.04.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.18.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Request => 0' for 'OALDERS/HTTP-Cookies-6.04.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.18.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Response => 0' for 'OALDERS/HTTP-Cookies-6.04.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.18.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'URI => 0' for 'OALDERS/HTTP-Cookies-6.04.tar.gz' failed when processing 'OALDERS/URI-1.75.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+cp lib/HTTP/Cookies.pm blib/lib/HTTP/Cookies.pm
+cp lib/HTTP/Cookies/Microsoft.pm blib/lib/HTTP/Cookies/Microsoft.pm
+cp lib/HTTP/Cookies/Netscape.pm blib/lib/HTTP/Cookies/Netscape.pm
+Manifying 3 pod documents
+  OALDERS/HTTP-Cookies-6.04.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# 
+# Versions for all modules listed in MYMETA.json (including optional ones):
+# 
+# === Configure Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.34
+# 
+# === Build Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.34
+# 
+# === Test Requires ===
+# 
+#     Module              Want     Have
+#     ------------------- ---- --------
+#     ExtUtils::MakeMaker  any     7.34
+#     File::Spec           any     3.74
+#     HTTP::Response       any  missing
+#     Test                 any     1.31
+#     Test::More           any 1.302133
+#     URI                  any  missing
+#     warnings             any     1.42
+# 
+# === Test Recommends ===
+# 
+#     Module         Want     Have
+#     ---------- -------- --------
+#     CPAN::Meta 2.120900 2.150010
+# 
+# === Runtime Requires ===
+# 
+#     Module              Want    Have
+#     ------------------- ---- -------
+#     Carp                 any    1.50
+#     HTTP::Date             6    6.02
+#     HTTP::Headers::Util    6 missing
+#     HTTP::Request        any missing
+#     Time::Local          any    1.25
+#     locale               any    1.09
+#     strict               any    1.11
+#     vars                 any    1.04
+# 
+# 
+# *** WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING ***
+# 
+# The following REQUIRED prerequisites were not satisfied:
+# 
+# HTTP::Response is not installed (any version required)
+# URI is not installed (any version required)
+# HTTP::Headers::Util is not installed (version '6' required)
+# HTTP::Request is not installed (any version required)
+# 
+t/00-report-prereqs.t .. ok
+Can't locate HTTP/Headers/Util.pm in @INC (you may need to install the HTTP::Headers::Util module) (@INC contains: /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/lib /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/lib/HTTP/Cookies.pm line 5.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/lib/HTTP/Cookies.pm line 5.
+Compilation failed in require at t/10-original_spec.t line 8.
+BEGIN failed--compilation aborted at t/10-original_spec.t line 8.
+t/10-original_spec.t ... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Headers/Util.pm in @INC (you may need to install the HTTP::Headers::Util module) (@INC contains: /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/lib /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/lib/HTTP/Cookies.pm line 5.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/lib/HTTP/Cookies.pm line 5.
+Compilation failed in require at t/11-rfc_2965.t line 8.
+BEGIN failed--compilation aborted at t/11-rfc_2965.t line 8.
+t/11-rfc_2965.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Headers/Util.pm in @INC (you may need to install the HTTP::Headers::Util module) (@INC contains: /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/lib /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/lib/HTTP/Cookies.pm line 5.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/lib/HTTP/Cookies.pm line 5.
+Compilation failed in require at t/cookies.t line 6.
+BEGIN failed--compilation aborted at t/cookies.t line 6.
+t/cookies.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Headers/Util.pm in @INC (you may need to install the HTTP::Headers::Util module) (@INC contains: /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/lib /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/lib/HTTP/Cookies.pm line 5.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Cookies-6.04-0/blib/lib/HTTP/Cookies.pm line 5.
+Compilation failed in require at t/publicsuffix.t line 8.
+BEGIN failed--compilation aborted at t/publicsuffix.t line 8.
+t/publicsuffix.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/10-original_spec.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/11-rfc_2965.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/cookies.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/publicsuffix.t     (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=5, Tests=1,  1 wallclock secs ( 0.02 usr  0.00 sys +  0.28 cusr  0.01 csys =  0.31 CPU)
+Result: FAIL
+Failed 4/5 test programs. 0/1 subtests failed.
+Makefile:885: recipe for target 'test_dynamic' failed
+make: *** [test_dynamic] Error 2
+  OALDERS/HTTP-Cookies-6.04.tar.gz
+4 dependencies missing (HTTP::Headers::Util,HTTP::Request,HTTP::Response,URI); additionally test harness failed
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports OALDERS/HTTP-Cookies-6.04.tar.gz
+Running install for module 'HTTP::Daemon'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GA/GAAS/HTTP-Daemon-6.01.tar.gz
+Checksum for /home/flynn/.cpan/sources/authors/id/G/GA/GAAS/HTTP-Daemon-6.01.tar.gz ok
+Configuring G/GA/GAAS/HTTP-Daemon-6.01.tar.gz with Makefile.PL
+Warning: prerequisite HTTP::Request 6 not found.
+Warning: prerequisite HTTP::Response 6 not found.
+Warning: prerequisite HTTP::Status 6 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTTP::Daemon
+Writing MYMETA.yml and MYMETA.json
+  GAAS/HTTP-Daemon-6.01.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for G/GA/GAAS/HTTP-Daemon-6.01.tar.gz
+---- Unsatisfied dependencies detected during ----
+----       GAAS/HTTP-Daemon-6.01.tar.gz       ----
+    HTTP::Request [requires]
+    HTTP::Response [requires]
+    HTTP::Status [requires]
+Running install for module 'HTTP::Request'
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Message-6.18-0
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Response'
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Message-6.18-0
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Status'
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Message-6.18-0
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Won't repeat unsuccessful test during this command
+  GAAS/HTTP-Daemon-6.01.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Daemon-6.01-0
+  GAAS/HTTP-Daemon-6.01.tar.gz
+  Has already been prepared
+Running make for G/GA/GAAS/HTTP-Daemon-6.01.tar.gz
+Warning: Prerequisite 'HTTP::Request => 6' for 'GAAS/HTTP-Daemon-6.01.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.18.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Response => 6' for 'GAAS/HTTP-Daemon-6.01.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.18.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Status => 6' for 'GAAS/HTTP-Daemon-6.01.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.18.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+cp lib/HTTP/Daemon.pm blib/lib/HTTP/Daemon.pm
+Manifying 1 pod document
+  GAAS/HTTP-Daemon-6.01.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+Can't locate HTTP/Request.pm in @INC (you may need to install the HTTP::Request module) (@INC contains: /home/flynn/.cpan/build/HTTP-Daemon-6.01-0/blib/lib /home/flynn/.cpan/build/HTTP-Daemon-6.01-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/HTTP-Daemon-6.01-0/blib/lib/HTTP/Daemon.pm line 84.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/HTTP-Daemon-6.01-0/blib/lib/HTTP/Daemon.pm line 84.
+Compilation failed in require at t/chunked.t line 7.
+BEGIN failed--compilation aborted at t/chunked.t line 7.
+t/chunked.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/chunked.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=1, Tests=0,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.01 cusr  0.00 csys =  0.03 CPU)
+Result: FAIL
+Failed 1/1 test programs. 0/0 subtests failed.
+Makefile:866: recipe for target 'test_dynamic' failed
+make: *** [test_dynamic] Error 2
+  GAAS/HTTP-Daemon-6.01.tar.gz
+3 dependencies missing (HTTP::Request,HTTP::Response,HTTP::Status); additionally test harness failed
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports GAAS/HTTP-Daemon-6.01.tar.gz
+Running install for module 'HTTP::Negotiate'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+Checksum for /home/flynn/.cpan/sources/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz ok
+Configuring G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz with Makefile.PL
+Warning: prerequisite HTTP::Headers 6 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTTP::Negotiate
+Writing MYMETA.yml and MYMETA.json
+  GAAS/HTTP-Negotiate-6.01.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+---- Unsatisfied dependencies detected during ----
+----      GAAS/HTTP-Negotiate-6.01.tar.gz     ----
+    HTTP::Headers [requires]
+Running install for module 'HTTP::Headers'
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Message-6.18-0
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Won't repeat unsuccessful test during this command
+  GAAS/HTTP-Negotiate-6.01.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Negotiate-6.01-0
+  GAAS/HTTP-Negotiate-6.01.tar.gz
+  Has already been prepared
+Running make for G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+Warning: Prerequisite 'HTTP::Headers => 6' for 'GAAS/HTTP-Negotiate-6.01.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.18.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+cp lib/HTTP/Negotiate.pm blib/lib/HTTP/Negotiate.pm
+Manifying 1 pod document
+  GAAS/HTTP-Negotiate-6.01.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+Can't locate HTTP/Request.pm in @INC (you may need to install the HTTP::Request module) (@INC contains: /home/flynn/.cpan/build/HTTP-Negotiate-6.01-0/blib/lib /home/flynn/.cpan/build/HTTP-Negotiate-6.01-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at t/negotiate.t line 6.
+BEGIN failed--compilation aborted at t/negotiate.t line 6.
+t/negotiate.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/negotiate.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=1, Tests=0,  0 wallclock secs ( 0.02 usr +  0.00 sys =  0.02 CPU)
+Result: FAIL
+Failed 1/1 test programs. 0/0 subtests failed.
+Makefile:854: recipe for target 'test_dynamic' failed
+make: *** [test_dynamic] Error 2
+  GAAS/HTTP-Negotiate-6.01.tar.gz
+one dependency not OK (HTTP::Headers); additionally test harness failed
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports GAAS/HTTP-Negotiate-6.01.tar.gz
+Running install for module 'HTTP::Request'
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Message-6.18-0
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Request::Common'
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Message-6.18-0
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Response'
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Message-6.18-0
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Status'
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/HTTP-Message-6.18-0
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.18.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'Net::HTTP'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.18.tar.gz
+Checksum for /home/flynn/.cpan/sources/authors/id/O/OA/OALDERS/Net-HTTP-6.18.tar.gz ok
+Configuring O/OA/OALDERS/Net-HTTP-6.18.tar.gz with Makefile.PL
+Warning: prerequisite URI 0 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Net::HTTP
+Writing MYMETA.yml and MYMETA.json
+  OALDERS/Net-HTTP-6.18.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for O/OA/OALDERS/Net-HTTP-6.18.tar.gz
+---- Unsatisfied dependencies detected during ----
+----       OALDERS/Net-HTTP-6.18.tar.gz       ----
+    URI [requires]
+Running install for module 'URI'
+  OALDERS/URI-1.75.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/URI-1.75-0
+  OALDERS/URI-1.75.tar.gz
+  Has already been prepared
+  OALDERS/URI-1.75.tar.gz
+  Could not make: Unknown error
+
+  OALDERS/Net-HTTP-6.18.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/Net-HTTP-6.18-0
+  OALDERS/Net-HTTP-6.18.tar.gz
+  Has already been prepared
+Running make for O/OA/OALDERS/Net-HTTP-6.18.tar.gz
+Warning: Prerequisite 'URI => 0' for 'OALDERS/Net-HTTP-6.18.tar.gz' failed when processing 'OALDERS/URI-1.75.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+cp lib/Net/HTTP/NB.pm blib/lib/Net/HTTP/NB.pm
+cp lib/Net/HTTP/Methods.pm blib/lib/Net/HTTP/Methods.pm
+cp lib/Net/HTTPS.pm blib/lib/Net/HTTPS.pm
+cp lib/Net/HTTP.pm blib/lib/Net/HTTP.pm
+Manifying 4 pod documents
+  OALDERS/Net-HTTP-6.18.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# 
+# Versions for all modules listed in MYMETA.json (including optional ones):
+# 
+# === Configure Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.34
+# 
+# === Configure Suggests ===
+# 
+#     Module      Want    Have
+#     -------- ------- -------
+#     JSON::PP 2.27300 2.97001
+# 
+# === Build Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.34
+# 
+# === Test Requires ===
+# 
+#     Module              Want     Have
+#     ------------------- ---- --------
+#     Data::Dumper         any    2.170
+#     ExtUtils::MakeMaker  any     7.34
+#     File::Spec           any     3.74
+#     IO::Select           any     1.39
+#     Socket               any    2.027
+#     Test::More           any 1.302133
+# 
+# === Test Recommends ===
+# 
+#     Module         Want     Have
+#     ---------- -------- --------
+#     CPAN::Meta 2.120900 2.150010
+# 
+# === Runtime Requires ===
+# 
+#     Module                 Want    Have
+#     ---------------------- ---- -------
+#     Carp                    any    1.50
+#     Compress::Raw::Zlib     any   2.076
+#     IO::Socket::INET        any    1.39
+#     IO::Uncompress::Gunzip  any   2.074
+#     URI                     any missing
+#     base                    any    2.27
+#     strict                  any    1.11
+#     vars                    any    1.04
+#     warnings                any    1.42
+# 
+# === Runtime Suggests ===
+# 
+#     Module             Want    Have
+#     ----------------- ----- -------
+#     IO::Socket          any    1.39
+#     IO::Socket::INET6   any missing
+#     IO::Socket::IP      any    0.39
+#     IO::Socket::SSL   2.012 missing
+#     Symbol              any    1.08
+# 
+# 
+# *** WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING ***
+# 
+# The following REQUIRED prerequisites were not satisfied:
+# 
+# URI is not installed (any version required)
+# 
+t/00-report-prereqs.t .. ok
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: CODE(0x1c5f370) /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/lib /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 CODE(0x1c5f340) .) at /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/lib/Net/HTTP/Methods.pm line 5.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/lib/Net/HTTP/Methods.pm line 5.
+Compilation failed in require at /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/lib/Net/HTTP.pm line 20.
+Compilation failed in require at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 137.
+	...propagated at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 159.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/lib/Net/HTTP/NB.pm line 6.
+Compilation failed in require at t/http-nb.t line 8.
+# Looks like your test exited with 2 before it could output anything.
+t/http-nb.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 14/14 subtests 
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/lib /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/lib/Net/HTTP/Methods.pm line 5.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/lib/Net/HTTP/Methods.pm line 5.
+Compilation failed in require at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 137.
+	...propagated at /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/base.pm line 159.
+BEGIN failed--compilation aborted at t/http.t line 13.
+t/http.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/live-https.t ......... skipped: IO::Socket::SSL or Net::SSL not available
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/lib /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/lib/Net/HTTP/Methods.pm line 5.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/lib/Net/HTTP/Methods.pm line 5.
+Compilation failed in require at /home/flynn/.cpan/build/Net-HTTP-6.18-0/blib/lib/Net/HTTP.pm line 20.
+Compilation failed in require at t/live.t line 26.
+BEGIN failed--compilation aborted at t/live.t line 26.
+t/live.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/http-nb.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 14 tests but ran 0.
+t/http.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/live.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=5, Tests=1,  1 wallclock secs ( 0.02 usr  0.00 sys +  0.33 cusr  0.04 csys =  0.39 CPU)
+Result: FAIL
+Failed 3/5 test programs. 0/1 subtests failed.
+Makefile:889: recipe for target 'test_dynamic' failed
+make: *** [test_dynamic] Error 2
+  OALDERS/Net-HTTP-6.18.tar.gz
+one dependency not OK (URI); additionally test harness failed
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports OALDERS/Net-HTTP-6.18.tar.gz
+Running install for module 'Test::Fatal'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/R/RJ/RJBS/CHECKSUMS
+Checksum for /home/flynn/.cpan/sources/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz ok
+Configuring R/RJ/RJBS/Test-Fatal-0.014.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::Fatal
+Writing MYMETA.yml and MYMETA.json
+  RJBS/Test-Fatal-0.014.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for R/RJ/RJBS/Test-Fatal-0.014.tar.gz
+cp lib/Test/Fatal.pm blib/lib/Test/Fatal.pm
+Manifying 1 pod document
+  RJBS/Test-Fatal-0.014.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# 
+# Versions for all modules listed in MYMETA.json (including optional ones):
+# 
+# === Configure Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.34
+# 
+# === Build Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.34
+# 
+# === Test Requires ===
+# 
+#     Module                Want     Have
+#     --------------------- ---- --------
+#     ExtUtils::MakeMaker    any     7.34
+#     File::Spec             any     3.74
+#     Test::Builder::Tester  any 1.302133
+#     Test::More            0.96 1.302133
+#     overload               any     1.30
+# 
+# === Test Recommends ===
+# 
+#     Module         Want     Have
+#     ---------- -------- --------
+#     CPAN::Meta 2.120900 2.150010
+# 
+# === Runtime Requires ===
+# 
+#     Module        Want     Have
+#     ------------- ---- --------
+#     Carp           any     1.50
+#     Exporter      5.57     5.73
+#     Test::Builder  any 1.302133
+#     Try::Tiny     0.07     0.30
+#     strict         any     1.11
+#     warnings       any     1.42
+# 
+t/00-report-prereqs.t .. ok
+t/basic.t .............. ok
+t/like-exception.t ..... ok
+t/todo.t ............... ok
+All tests successful.
+Files=4, Tests=16,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.26 cusr  0.02 csys =  0.31 CPU)
+Result: PASS
+  RJBS/Test-Fatal-0.014.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 1 pod document
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Test/Fatal.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Test::Fatal.3
+  RJBS/Test-Fatal-0.014.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+Running install for module 'Test::RequiresInternet'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/M/MA/MALLEN/CHECKSUMS
+Checksum for /home/flynn/.cpan/sources/authors/id/M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz ok
+Configuring M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::RequiresInternet
+Writing MYMETA.yml and MYMETA.json
+  MALLEN/Test-RequiresInternet-0.05.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz
+cp lib/Test/RequiresInternet.pm blib/lib/Test/RequiresInternet.pm
+Manifying 1 pod document
+  MALLEN/Test-RequiresInternet-0.05.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# Testing Test::RequiresInternet 0.05, Perl 5.028001, /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl
+t/00_load.t ............ ok
+t/01_getserv.t ......... ok
+t/02_multiple_hosts.t .. ok
+t/03_badhost.t ......... skipped: no host: foobar
+t/04_env.t ............. skipped: NO_NETWORK_TESTING
+t/05_badarg.t .......... ok
+t/06_badport.t ......... skipped: Could not find a port number for foobar
+All tests successful.
+Files=7, Tests=4,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.30 cusr  0.07 csys =  0.41 CPU)
+Result: PASS
+  MALLEN/Test-RequiresInternet-0.05.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+Manifying 1 pod document
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/Test/RequiresInternet.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Test::RequiresInternet.3
+  MALLEN/Test-RequiresInternet-0.05.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+Running install for module 'URI'
+  OALDERS/URI-1.75.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/URI-1.75-0
+  OALDERS/URI-1.75.tar.gz
+  Has already been prepared
+  OALDERS/URI-1.75.tar.gz
+  Could not make: Unknown error
+
+Running install for module 'URI::Escape'
+  OALDERS/URI-1.75.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/URI-1.75-0
+  OALDERS/URI-1.75.tar.gz
+  Has already been prepared
+  OALDERS/URI-1.75.tar.gz
+  Could not make: Unknown error
+
+Running install for module 'WWW::RobotRules'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+Checksum for /home/flynn/.cpan/sources/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz ok
+Configuring G/GA/GAAS/WWW-RobotRules-6.02.tar.gz with Makefile.PL
+Warning: prerequisite URI 1.10 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for WWW::RobotRules
+Writing MYMETA.yml and MYMETA.json
+  GAAS/WWW-RobotRules-6.02.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+---- Unsatisfied dependencies detected during ----
+----      GAAS/WWW-RobotRules-6.02.tar.gz     ----
+    URI [requires]
+Running install for module 'URI'
+  OALDERS/URI-1.75.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/URI-1.75-0
+  OALDERS/URI-1.75.tar.gz
+  Has already been prepared
+  OALDERS/URI-1.75.tar.gz
+  Could not make: Unknown error
+
+  GAAS/WWW-RobotRules-6.02.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/WWW-RobotRules-6.02-0
+  GAAS/WWW-RobotRules-6.02.tar.gz
+  Has already been prepared
+Running make for G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+Warning: Prerequisite 'URI => 1.10' for 'GAAS/WWW-RobotRules-6.02.tar.gz' failed when processing 'OALDERS/URI-1.75.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+cp lib/WWW/RobotRules.pm blib/lib/WWW/RobotRules.pm
+cp lib/WWW/RobotRules/AnyDBM_File.pm blib/lib/WWW/RobotRules/AnyDBM_File.pm
+Manifying 2 pod documents
+  GAAS/WWW-RobotRules-6.02.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/WWW-RobotRules-6.02-0/blib/lib /home/flynn/.cpan/build/WWW-RobotRules-6.02-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/WWW-RobotRules-6.02-0/blib/lib/WWW/RobotRules.pm line 7.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/WWW-RobotRules-6.02-0/blib/lib/WWW/RobotRules.pm line 7.
+Compilation failed in require at /home/flynn/.cpan/build/WWW-RobotRules-6.02-0/blib/lib/WWW/RobotRules/AnyDBM_File.pm line 3.
+Compilation failed in require at t/rules-dbm.t line 5.
+BEGIN failed--compilation aborted at t/rules-dbm.t line 5.
+t/rules-dbm.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate URI.pm in @INC (you may need to install the URI module) (@INC contains: /home/flynn/.cpan/build/WWW-RobotRules-6.02-0/blib/lib /home/flynn/.cpan/build/WWW-RobotRules-6.02-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/WWW-RobotRules-6.02-0/blib/lib/WWW/RobotRules.pm line 7.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/WWW-RobotRules-6.02-0/blib/lib/WWW/RobotRules.pm line 7.
+Compilation failed in require at t/rules.t line 14.
+t/rules.t ...... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/rules-dbm.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/rules.t    (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=2, Tests=0,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.01 cusr  0.00 csys =  0.04 CPU)
+Result: FAIL
+Failed 2/2 test programs. 0/0 subtests failed.
+Makefile:862: recipe for target 'test_dynamic' failed
+make: *** [test_dynamic] Error 2
+  GAAS/WWW-RobotRules-6.02.tar.gz
+one dependency not OK (URI); additionally test harness failed
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports GAAS/WWW-RobotRules-6.02.tar.gz
+  ETHER/libwww-perl-6.36.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/libwww-perl-6.36-0
+  ETHER/libwww-perl-6.36.tar.gz
+  Has already been prepared
+Running make for E/ET/ETHER/libwww-perl-6.36.tar.gz
+Warning: Prerequisite 'HTTP::Cookies => 6' for 'ETHER/libwww-perl-6.36.tar.gz' failed when processing 'OALDERS/HTTP-Cookies-6.04.tar.gz' with 'make_test => NO 4 dependencies missing (HTTP::Headers::Util,HTTP::Request,HTTP::Response,URI); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Daemon => 6' for 'ETHER/libwww-perl-6.36.tar.gz' failed when processing 'GAAS/HTTP-Daemon-6.01.tar.gz' with 'make_test => NO 3 dependencies missing (HTTP::Request,HTTP::Response,HTTP::Status); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Negotiate => 6' for 'ETHER/libwww-perl-6.36.tar.gz' failed when processing 'GAAS/HTTP-Negotiate-6.01.tar.gz' with 'make_test => NO one dependency not OK (HTTP::Headers); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Request => 6' for 'ETHER/libwww-perl-6.36.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.18.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Request::Common => 6' for 'ETHER/libwww-perl-6.36.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.18.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Response => 6' for 'ETHER/libwww-perl-6.36.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.18.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Status => 6' for 'ETHER/libwww-perl-6.36.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.18.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'Net::HTTP => 6.07' for 'ETHER/libwww-perl-6.36.tar.gz' failed when processing 'OALDERS/Net-HTTP-6.18.tar.gz' with 'make_test => NO one dependency not OK (URI); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'URI => 1.10' for 'ETHER/libwww-perl-6.36.tar.gz' failed when processing 'OALDERS/URI-1.75.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'URI::Escape => 0' for 'ETHER/libwww-perl-6.36.tar.gz' failed when processing 'OALDERS/URI-1.75.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'WWW::RobotRules => 6' for 'ETHER/libwww-perl-6.36.tar.gz' failed when processing 'GAAS/WWW-RobotRules-6.02.tar.gz' with 'make_test => NO one dependency not OK (URI); additionally test harness failed'. Continuing, but chances to succeed are limited.
+---- Unsatisfied dependencies detected during ----
+----       ETHER/libwww-perl-6.36.tar.gz      ----
+    Test::LeakTrace [build_requires,optional]
+cp lib/LWP/Protocol/loopback.pm blib/lib/LWP/Protocol/loopback.pm
+cp lib/LWP/Protocol/nogo.pm blib/lib/LWP/Protocol/nogo.pm
+cp lib/LWP/ConnCache.pm blib/lib/LWP/ConnCache.pm
+cp lib/LWP/Protocol/nntp.pm blib/lib/LWP/Protocol/nntp.pm
+cp lib/LWP/Protocol/data.pm blib/lib/LWP/Protocol/data.pm
+cp lib/LWP/Protocol/file.pm blib/lib/LWP/Protocol/file.pm
+cp lib/LWP.pm blib/lib/LWP.pm
+cp lib/LWP/DebugFile.pm blib/lib/LWP/DebugFile.pm
+cp lib/LWP/MemberMixin.pm blib/lib/LWP/MemberMixin.pm
+cp lib/LWP/Protocol.pm blib/lib/LWP/Protocol.pm
+cp lib/LWP/Authen/Ntlm.pm blib/lib/LWP/Authen/Ntlm.pm
+cp lwptut.pod blib/lib/libwww/lwptut.pod
+cp lib/LWP/Simple.pm blib/lib/LWP/Simple.pm
+cp lwpcook.pod blib/lib/libwww/lwpcook.pod
+cp lib/LWP/Protocol/mailto.pm blib/lib/LWP/Protocol/mailto.pm
+cp lib/LWP/Debug/TraceHTTP.pm blib/lib/LWP/Debug/TraceHTTP.pm
+cp lib/LWP/Protocol/ftp.pm blib/lib/LWP/Protocol/ftp.pm
+cp lib/LWP/Authen/Digest.pm blib/lib/LWP/Authen/Digest.pm
+cp lib/LWP/Protocol/gopher.pm blib/lib/LWP/Protocol/gopher.pm
+cp lib/LWP/Protocol/cpan.pm blib/lib/LWP/Protocol/cpan.pm
+cp lib/LWP/UserAgent.pm blib/lib/LWP/UserAgent.pm
+cp lib/LWP/Debug.pm blib/lib/LWP/Debug.pm
+cp lib/LWP/Authen/Basic.pm blib/lib/LWP/Authen/Basic.pm
+cp lib/LWP/RobotUA.pm blib/lib/LWP/RobotUA.pm
+cp lib/LWP/Protocol/http.pm blib/lib/LWP/Protocol/http.pm
+cp bin/lwp-download blib/script/lwp-download
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/lwp-download
+cp bin/lwp-dump blib/script/lwp-dump
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/lwp-dump
+cp bin/lwp-mirror blib/script/lwp-mirror
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/lwp-mirror
+cp bin/lwp-request blib/script/lwp-request
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/lwp-request
+Manifying 4 pod documents
+Manifying 11 pod documents
+  ETHER/libwww-perl-6.36.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t t/base/*.t t/base/protocols/*.t t/leak/*.t t/local/*.t t/robot/*.t
+# 
+# Versions for all modules listed in MYMETA.json (including optional ones):
+# 
+# === Configure Requires ===
+# 
+#     Module                       Want     Have
+#     ------------------------ -------- --------
+#     CPAN::Meta::Requirements 2.120620    2.140
+#     ExtUtils::MakeMaker           any     7.34
+#     File::Copy                    any     2.33
+#     Getopt::Long                  any      2.5
+#     Module::Metadata              any 1.000033
+# 
+# === Build Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.34
+# 
+# === Test Requires ===
+# 
+#     Module                 Want     Have
+#     ---------------------- ---- --------
+#     ExtUtils::MakeMaker     any     7.34
+#     File::Spec              any     3.74
+#     FindBin                 any     1.51
+#     Test::Fatal             any    0.014
+#     Test::More              any 1.302133
+#     Test::Needs             any 0.002005
+#     Test::RequiresInternet  any     0.05
+# 
+# === Test Recommends ===
+# 
+#     Module              Want     Have
+#     --------------- -------- --------
+#     CPAN::Meta      2.120900 2.150010
+#     Test::LeakTrace      any  missing
+# 
+# === Runtime Requires ===
+# 
+#     Module                Want    Have
+#     --------------------- ---- -------
+#     Digest::MD5            any    2.55
+#     Encode                2.12    2.97
+#     Encode::Locale         any    1.05
+#     File::Listing            6    6.04
+#     HTML::Entities         any    3.69
+#     HTML::HeadParser       any    3.71
+#     HTTP::Cookies            6 missing
+#     HTTP::Daemon             6 missing
+#     HTTP::Date               6    6.02
+#     HTTP::Negotiate          6 missing
+#     HTTP::Request            6 missing
+#     HTTP::Request::Common    6 missing
+#     HTTP::Response           6 missing
+#     HTTP::Status             6 missing
+#     IO::Select             any    1.39
+#     IO::Socket             any    1.39
+#     LWP::MediaTypes          6    6.02
+#     MIME::Base64           2.1    3.15
+#     Net::FTP              2.58    3.11
+#     Net::HTTP             6.07 missing
+#     Scalar::Util           any    1.50
+#     Try::Tiny              any    0.30
+#     URI                   1.10 missing
+#     URI::Escape            any missing
+#     WWW::RobotRules          6 missing
+#     base                   any    2.27
+#     strict                 any    1.11
+#     warnings               any    1.42
+# 
+# === Runtime Suggests ===
+# 
+#     Module               Want    Have
+#     -------------------- ---- -------
+#     Authen::NTLM         1.02 missing
+#     Data::Dump           1.13 missing
+#     IO::Socket::INET      any    1.39
+#     LWP::Protocol::https 6.02 missing
+# 
+# 
+# *** WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING ***
+# 
+# The following REQUIRED prerequisites were not satisfied:
+# 
+# HTTP::Cookies is not installed (version '6' required)
+# HTTP::Daemon is not installed (version '6' required)
+# HTTP::Negotiate is not installed (version '6' required)
+# HTTP::Request is not installed (version '6' required)
+# HTTP::Request::Common is not installed (version '6' required)
+# HTTP::Response is not installed (version '6' required)
+# HTTP::Status is not installed (version '6' required)
+# Net::HTTP is not installed (version '6.07' required)
+# URI is not installed (version '1.10' required)
+# URI::Escape is not installed (any version required)
+# WWW::RobotRules is not installed (version '6' required)
+# 
+t/00-report-prereqs.t .......... ok
+Can't locate HTTP/Request.pm in @INC (you may need to install the HTTP::Request module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+Compilation failed in require at t/10-attrs.t line 5.
+BEGIN failed--compilation aborted at t/10-attrs.t line 5.
+t/10-attrs.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Request.pm in @INC (you may need to install the HTTP::Request module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+Compilation failed in require at t/base/default_content_type.t line 5.
+BEGIN failed--compilation aborted at t/base/default_content_type.t line 5.
+t/base/default_content_type.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Request.pm in @INC (you may need to install the HTTP::Request module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+Compilation failed in require at t/base/protocols.t line 5.
+BEGIN failed--compilation aborted at t/base/protocols.t line 5.
+t/base/protocols.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Request.pm in @INC (you may need to install the HTTP::Request module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+Compilation failed in require at t/base/protocols/nntp.t line 4.
+BEGIN failed--compilation aborted at t/base/protocols/nntp.t line 4.
+t/base/protocols/nntp.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Request.pm in @INC (you may need to install the HTTP::Request module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+Compilation failed in require at t/base/proxy.t line 6.
+BEGIN failed--compilation aborted at t/base/proxy.t line 6.
+t/base/proxy.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Status.pm in @INC (you may need to install the HTTP::Status module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/Simple.pm line 15.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/Simple.pm line 15.
+Compilation failed in require at t/base/simple.t line 5.
+BEGIN failed--compilation aborted at t/base/simple.t line 5.
+t/base/simple.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Request.pm in @INC (you may need to install the HTTP::Request module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at t/base/ua.t line 3.
+BEGIN failed--compilation aborted at t/base/ua.t line 3.
+t/base/ua.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Request.pm in @INC (you may need to install the HTTP::Request module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+Compilation failed in require at t/base/ua_handlers.t line 4.
+BEGIN failed--compilation aborted at t/base/ua_handlers.t line 4.
+t/base/ua_handlers.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/leak/no_leak.t ............... skipped: Need Test::LeakTrace
+Can't locate HTTP/Request.pm in @INC (you may need to install the HTTP::Request module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/UserAgent.pm line 8.
+Compilation failed in require at t/local/autoload-get.t line 5.
+BEGIN failed--compilation aborted at t/local/autoload-get.t line 5.
+t/local/autoload-get.t ......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Request.pm in @INC (you may need to install the HTTP::Request module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at t/local/autoload.t line 5.
+BEGIN failed--compilation aborted at t/local/autoload.t line 5.
+t/local/autoload.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Status.pm in @INC (you may need to install the HTTP::Status module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/Simple.pm line 15.
+BEGIN failed--compilation aborted at /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib/LWP/Simple.pm line 15.
+Compilation failed in require at t/local/get.t line 6.
+BEGIN failed--compilation aborted at t/local/get.t line 6.
+t/local/get.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Daemon.pm in @INC (you may need to install the HTTP::Daemon module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at t/local/http.t line 7.
+BEGIN failed--compilation aborted at t/local/http.t line 7.
+t/local/http.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Request.pm in @INC (you may need to install the HTTP::Request module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at t/local/httpsub.t line 5.
+BEGIN failed--compilation aborted at t/local/httpsub.t line 5.
+t/local/httpsub.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Request.pm in @INC (you may need to install the HTTP::Request module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at t/local/protosub.t line 5.
+BEGIN failed--compilation aborted at t/local/protosub.t line 5.
+t/local/protosub.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Daemon.pm in @INC (you may need to install the HTTP::Daemon module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at t/robot/ua-get.t line 7.
+BEGIN failed--compilation aborted at t/robot/ua-get.t line 7.
+t/robot/ua-get.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate HTTP/Daemon.pm in @INC (you may need to install the HTTP::Daemon module) (@INC contains: /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/lib /home/flynn/.cpan/build/libwww-perl-6.36-0/blib/arch /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1 /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1 /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi /home/linuxbrew/.linuxbrew/lib/perl5/site_perl/5.28.1 .) at t/robot/ua.t line 7.
+BEGIN failed--compilation aborted at t/robot/ua.t line 7.
+t/robot/ua.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/10-attrs.t                 (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/default_content_type.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/protocols.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/protocols/nntp.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/proxy.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/simple.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/ua.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/ua_handlers.t         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/local/autoload-get.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/local/autoload.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/local/get.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/local/http.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/local/httpsub.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/local/protosub.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/robot/ua-get.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/robot/ua.t                 (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=18, Tests=1,  1 wallclock secs ( 0.04 usr  0.01 sys +  0.79 cusr  0.12 csys =  0.96 CPU)
+Result: FAIL
+Failed 16/18 test programs. 0/1 subtests failed.
+Makefile:1027: recipe for target 'test_dynamic' failed
+make: *** [test_dynamic] Error 2
+  ETHER/libwww-perl-6.36.tar.gz
+11 dependencies missing (HTTP::Cookies,HTTP::Daemon,HTTP::Negotiate,HTTP::Request,HTTP::Request::Common,HTTP::Response,HTTP::Status,Net::HTTP,URI,URI::Escape,WWW::RobotRules); additionally test harness failed
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports ETHER/libwww-perl-6.36.tar.gz
+Running install for module 'Test::LeakTrace'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/L/LE/LEEJO/Test-LeakTrace-0.16.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/L/LE/LEEJO/CHECKSUMS
+Checksum for /home/flynn/.cpan/sources/authors/id/L/LE/LEEJO/Test-LeakTrace-0.16.tar.gz ok
+Configuring L/LE/LEEJO/Test-LeakTrace-0.16.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::LeakTrace
+Writing MYMETA.yml and MYMETA.json
+  LEEJO/Test-LeakTrace-0.16.tar.gz
+  /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl Makefile.PL -- OK
+Running make for L/LE/LEEJO/Test-LeakTrace-0.16.tar.gz
+cp lib/Test/LeakTrace.pm blib/lib/Test/LeakTrace.pm
+cp lib/Test/LeakTrace/Script.pm blib/lib/Test/LeakTrace/Script.pm
+cp lib/Test/LeakTrace/JA.pod blib/lib/Test/LeakTrace/JA.pod
+Running Mkbootstrap for LeakTrace ()
+chmod 644 "LeakTrace.bs"
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-Iinc" -MExtUtils::Command::MM -e 'cp_nonempty' -- LeakTrace.bs blib/arch/auto/Test/LeakTrace/LeakTrace.bs 644
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-Iinc" "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/ExtUtils/xsubpp"  -typemap '/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/ExtUtils/typemap'  LeakTrace.xs > LeakTrace.xsc
+mv LeakTrace.xsc LeakTrace.c
+cc -c   -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/home/linuxbrew/.linuxbrew/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DVERSION=\"0.16\" -DXS_VERSION=\"0.16\" -fPIC "-I/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/CORE"   LeakTrace.c
+rm -f blib/arch/auto/Test/LeakTrace/LeakTrace.so
+cc  -shared -O2 -L/usr/local/lib -fstack-protector-strong  LeakTrace.o  -o blib/arch/auto/Test/LeakTrace/LeakTrace.so  \
+      \
+  
+chmod 755 blib/arch/auto/Test/LeakTrace/LeakTrace.so
+Manifying 3 pod documents
+  LEEJO/Test-LeakTrace-0.16.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-Iinc" -MExtUtils::Command::MM -e 'cp_nonempty' -- LeakTrace.bs blib/arch/auto/Test/LeakTrace/LeakTrace.bs 644
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'inc', 'blib/lib', 'blib/arch')" t/*.t
+# Testing Test::LeakTrace/0.16
+t/00_compile.t ..... ok
+t/01_info.t ........ ok
+t/02_refs.t ........ ok
+t/03_count.t ....... ok
+t/04_test_funcs.t .. ok
+t/05_script.t ...... ok
+t/06_threads.t ..... ok
+t/07_eval.t ........ ok
+t/08_leaktrace.t ... ok
+t/09_info_more.t ... ok
+t/10_bad_use.t ..... ok
+t/11_logfp.t ....... ok
+t/12_padstale.t .... ok
+t/13_do.t .......... ok
+All tests successful.
+Files=14, Tests=132,  1 wallclock secs ( 0.03 usr  0.02 sys +  0.79 cusr  0.11 csys =  0.95 CPU)
+Result: PASS
+  LEEJO/Test-LeakTrace-0.16.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make test -- OK
+Running make install
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-Iinc" -MExtUtils::Command::MM -e 'cp_nonempty' -- LeakTrace.bs blib/arch/auto/Test/LeakTrace/LeakTrace.bs 644
+Manifying 3 pod documents
+Appending installation info to /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/perllocal.pod
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi/auto/Test/LeakTrace/LeakTrace.so
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi/Test/LeakTrace.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi/Test/LeakTrace/Script.pm
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/site_perl/5.28.1/x86_64-linux-thread-multi/Test/LeakTrace/JA.pod
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Test::LeakTrace::Script.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Test::LeakTrace.3
+Installing /home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/share/man/man3/Test::LeakTrace::JA.3
+  LEEJO/Test-LeakTrace-0.16.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make install  -- OK
+  TODDR/XML-Parser-2.44.tar.gz
+  Has already been unwrapped into directory /home/flynn/.cpan/build/XML-Parser-2.44-0
+  TODDR/XML-Parser-2.44.tar.gz
+  Has already been prepared
+Running make for T/TO/TODDR/XML-Parser-2.44.tar.gz
+Warning: Prerequisite 'LWP::UserAgent => 0' for 'TODDR/XML-Parser-2.44.tar.gz' failed when processing 'ETHER/libwww-perl-6.36.tar.gz' with 'make_test => NO 11 dependencies missing (HTTP::Cookies,HTTP::Daemon,HTTP::Negotiate,HTTP::Request,HTTP::Request::Common,HTTP::Response,HTTP::Status,Net::HTTP,URI,URI::Escape,WWW::RobotRules); additionally test harness failed'. Continuing, but chances to succeed are limited.
+cp Parser/Encodings/x-sjis-jisx0221.enc blib/lib/XML/Parser/Encodings/x-sjis-jisx0221.enc
+cp Parser/Style/Objects.pm blib/lib/XML/Parser/Style/Objects.pm
+cp Parser/Encodings/x-euc-jp-jisx0221.enc blib/lib/XML/Parser/Encodings/x-euc-jp-jisx0221.enc
+cp Parser/Encodings/Japanese_Encodings.msg blib/lib/XML/Parser/Encodings/Japanese_Encodings.msg
+cp Parser/Encodings/iso-8859-5.enc blib/lib/XML/Parser/Encodings/iso-8859-5.enc
+cp Parser/Encodings/big5.enc blib/lib/XML/Parser/Encodings/big5.enc
+cp Parser/Style/Stream.pm blib/lib/XML/Parser/Style/Stream.pm
+cp Parser/LWPExternEnt.pl blib/lib/XML/Parser/LWPExternEnt.pl
+cp Parser/Encodings/x-euc-jp-unicode.enc blib/lib/XML/Parser/Encodings/x-euc-jp-unicode.enc
+cp Parser/Encodings/euc-kr.enc blib/lib/XML/Parser/Encodings/euc-kr.enc
+cp Parser/Encodings/windows-1250.enc blib/lib/XML/Parser/Encodings/windows-1250.enc
+cp Parser/Encodings/windows-1251.enc blib/lib/XML/Parser/Encodings/windows-1251.enc
+cp Parser/Encodings/iso-8859-2.enc blib/lib/XML/Parser/Encodings/iso-8859-2.enc
+cp Parser.pm blib/lib/XML/Parser.pm
+cp Parser/Encodings/windows-1252.enc blib/lib/XML/Parser/Encodings/windows-1252.enc
+cp Parser/Encodings/ibm866.enc blib/lib/XML/Parser/Encodings/ibm866.enc
+cp Parser/Style/Tree.pm blib/lib/XML/Parser/Style/Tree.pm
+cp Parser/Encodings/iso-8859-8.enc blib/lib/XML/Parser/Encodings/iso-8859-8.enc
+cp Parser/Encodings/koi8-r.enc blib/lib/XML/Parser/Encodings/koi8-r.enc
+cp Parser/Encodings/iso-8859-3.enc blib/lib/XML/Parser/Encodings/iso-8859-3.enc
+cp Parser/Encodings/iso-8859-9.enc blib/lib/XML/Parser/Encodings/iso-8859-9.enc
+cp Parser/Encodings/iso-8859-7.enc blib/lib/XML/Parser/Encodings/iso-8859-7.enc
+cp Parser/Encodings/README blib/lib/XML/Parser/Encodings/README
+cp Parser/Encodings/x-sjis-cp932.enc blib/lib/XML/Parser/Encodings/x-sjis-cp932.enc
+cp Parser/Encodings/x-sjis-jdk117.enc blib/lib/XML/Parser/Encodings/x-sjis-jdk117.enc
+cp Parser/Encodings/x-sjis-unicode.enc blib/lib/XML/Parser/Encodings/x-sjis-unicode.enc
+cp Parser/Style/Debug.pm blib/lib/XML/Parser/Style/Debug.pm
+cp Parser/Encodings/windows-1255.enc blib/lib/XML/Parser/Encodings/windows-1255.enc
+cp Parser/Encodings/iso-8859-4.enc blib/lib/XML/Parser/Encodings/iso-8859-4.enc
+cp Parser/Style/Subs.pm blib/lib/XML/Parser/Style/Subs.pm
+make[1]: Entering directory '/home/flynn/.cpan/build/XML-Parser-2.44-0/Expat'
+cp Expat.pm ../blib/lib/XML/Parser/Expat.pm
+Running Mkbootstrap for Expat ()
+chmod 644 "Expat.bs"
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- Expat.bs ../blib/arch/auto/XML/Parser/Expat/Expat.bs 644
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/ExtUtils/xsubpp" -noprototypes -typemap '/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/ExtUtils/typemap' -typemap '/home/flynn/.cpan/build/XML-Parser-2.44-0/Expat/typemap'  Expat.xs > Expat.xsc
+mv Expat.xsc Expat.c
+cc -c   -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/home/linuxbrew/.linuxbrew/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DVERSION=\"2.44\" -DXS_VERSION=\"2.44\" -fPIC "-I/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/lib/perl5/5.28.1/x86_64-linux-thread-multi/CORE"   Expat.c
+rm -f ../blib/arch/auto/XML/Parser/Expat/Expat.so
+LD_RUN_PATH="/home/linuxbrew/.linuxbrew/lib" cc  -shared -O2 -L/usr/local/lib -fstack-protector-strong  Expat.o  -o ../blib/arch/auto/XML/Parser/Expat/Expat.so  \
+   -lexpat   \
+  
+chmod 755 ../blib/arch/auto/XML/Parser/Expat/Expat.so
+Manifying 1 pod document
+make[1]: Leaving directory '/home/flynn/.cpan/build/XML-Parser-2.44-0/Expat'
+Manifying 6 pod documents
+  TODDR/XML-Parser-2.44.tar.gz
+  /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/linux/super/make -- OK
+Running make test
+make[1]: Entering directory '/home/flynn/.cpan/build/XML-Parser-2.44-0/Expat'
+"/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- Expat.bs ../blib/arch/auto/XML/Parser/Expat/Expat.bs 644
+Manifying 1 pod document
+make[1]: Leaving directory '/home/flynn/.cpan/build/XML-Parser-2.44-0/Expat'
+PERL_DL_NONLAZY=1 "/home/linuxbrew/.linuxbrew/Cellar/perl/5.28.1/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/astress.t ........... ok
+t/cdata.t ............. ok
+t/decl.t .............. ok
+t/defaulted.t ......... ok
+t/encoding.t .......... ok
+Couldn't load LWP based external entity handler
+Switching to file-based external entity handler
+ (To avoid this message, use NoLWP option to XML::Parser)
+t/external_ent.t ...... ok
+t/file.t .............. ok
+t/file_open_scalar.t .. ok
+t/finish.t ............ ok
+t/namespaces.t ........ ok
+Couldn't load LWP based external entity handler
+Switching to file-based external entity handler
+ (To avoid this message, use NoLWP option to XML::Parser)
+t/parament.t .......... ok
+t/partial.t ........... ok
+t/skip.t .............. ok
+t/stream.t ............ ok
+t/styles.t ............ ok
+All tests successful.
+Files=15, Tests=141,  1 wallclock secs ( 0.05 usr  0.00 sys +  0.41 cusr  0.07 csys =  0.53 CPU)
+Result: PASS
+  TODDR/XML-Parser-2.44.tar.gz
+Tests succeeded but one dependency not OK (LWP::UserAgent)
+  TODDR/XML-Parser-2.44.tar.gz
+  [dependencies] -- NA

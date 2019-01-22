@@ -30,8 +30,8 @@ DEBUG      Indicator-Application     Connected to Application Indicator Service.
 DEBUG      Indicator-Application     Request current apps
 DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.sound
 DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.session
-DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.datetime
 DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.keyboard
+DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.datetime
 DEBUG      libindicator-plugin       Entry added for io=libprintersmenu.so
-DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.power
 DEBUG      libindicator-plugin       Entry removed for io=libprintersmenu.so
+DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.power
